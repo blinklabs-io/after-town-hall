@@ -1,0 +1,5 @@
+# Blink Labs
+#
+* @blinklabs-io/core @blinklabs-io/frontend
+*.md @blinklabs-io/core @blinklabs-io/pms @blinklabs-io/frontend
+LICENSE @blinklabs-io/core @blinklabs-io/pms
