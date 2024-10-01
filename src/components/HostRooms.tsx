@@ -20,7 +20,7 @@ const HostRoomCard = ({ br }: { br: BR }) => {
         preserveAspectRatio="none"
       >
         <path
-          fill="#133cd3"
+          fill="#6155D8"
           fillOpacity="1"
           d="M0,320L0,320L120,373C240,427,480,533,720,550C960,567,1200,493,1320,456L1440,420L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
         ></path>
@@ -49,7 +49,7 @@ const HostRoomCard = ({ br }: { br: BR }) => {
             <X size={24} />
           </button>
           <p className="text-black font-bold mb-4">Host: {br.host}</p>
-          <p className="text-black">{br.description}</p>
+          <p className="text-black p-6">{br.description}</p>
         </div>
       )}
     </div>
@@ -59,7 +59,7 @@ const HostRoomCard = ({ br }: { br: BR }) => {
 const HostRooms = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 p-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4 gap-10">
         {data.breakoutRooms.map((br, index) => (
           <HostRoomCard key={index} br={br} />
         ))}

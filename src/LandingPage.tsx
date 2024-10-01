@@ -15,6 +15,7 @@ const LandingPage = () => {
         damping: 20,
         stiffness: 30,
         duration: 2,
+        delay: 0.6,
       },
     },
   };
@@ -29,7 +30,22 @@ const LandingPage = () => {
         damping: 20,
         stiffness: 30,
         duration: 2,
-        delay: 0.3,
+        delay: 0.4,
+      },
+    },
+  };
+
+  const crashDown3 = {
+    hidden: { y: -1000, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        type: 'spring',
+        damping: 20,
+        stiffness: 30,
+        duration: 2,
+        delay: 0.2,
       },
     },
   };
@@ -49,7 +65,7 @@ const LandingPage = () => {
     <div className="flex flex-col justify-center items-start h-full overflow-hidden gradient-background">
       <div className="font-custom">
         <motion.div
-          variants={crashDown2}
+          variants={crashDown1}
           initial="hidden"
           animate="visible"
           className="text-xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl text-black font-semibold mb-6 pl-16 "
@@ -57,19 +73,17 @@ const LandingPage = () => {
           Catalyst Community
         </motion.div>
         <motion.div
-          variants={crashDown1}
+          variants={crashDown2}
           initial="hidden"
           animate="visible"
-          transition={{ delay: 0.2 }}
-          className="text-3xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl text-[#133CD3] font-semibold leading-tight mb-4 pl-16 "
+          className="text-3xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl text-[#133CD3] font-semibold leading-tight mb-6 pl-16 "
         >
           AFTER TOWNHALL
         </motion.div>
         <motion.div
-          variants={crashDown1}
+          variants={crashDown3}
           initial="hidden"
           animate="visible"
-          transition={{ delay: 0.2 }}
           className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-7xl text-[#133CD3] font-semibold leading-tight mb-10 pl-16 "
         >
           Ideas. Innovation. Impact.

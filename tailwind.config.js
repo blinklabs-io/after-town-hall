@@ -9,6 +9,12 @@ export default {
       fontFamily: {
         custom: ['Lato', 'sans-serif'],
       },
+      screens: {
+        phone: '430px',
+
+        lg: '1150px',
+        '3xl': '1550px',
+      },
     },
   },
 };
