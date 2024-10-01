@@ -26,7 +26,7 @@ const Final = () => {
             rel="noopener noreferrer"
             className="hover:text-[#1DA1F2]"
           >
-            © 2024 Blink Labs. Apache License, 2.0
+            © 2024 Blink Labs Software. Apache License, 2.0
           </a>
         </div>
         <div>
