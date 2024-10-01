@@ -116,8 +116,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday September 18th, 2024',
-    upcomingEvent: 'Fund 13 kicks off next week!',
+    date: 'Wednesday October 2nd, 2024',
+    upcomingEvent: 'Fund 13: Submit proposals until Oct 10th',
   },
 };
 
