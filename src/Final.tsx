@@ -19,7 +19,15 @@ const Final = () => {
               We appreciate your participation!
             </span>
           </div>
-          <span>© 2024 All Rights Reserved</span>
+
+          <a
+            href="LICENSE"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-[#1DA1F2]"
+          >
+            © 2024 Blink Labs Software. Apache License, 2.0
+          </a>
         </div>
         <div>
           <h3 className="text-3xl font-semibold mb-4">Community</h3>

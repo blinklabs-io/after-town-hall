@@ -10,7 +10,7 @@ const BreakOutRoomForm = () => {
         preserveAspectRatio="none"
       >
         <path
-          fill="#133cd3"
+          fill="#6155D8"
           fillOpacity="1"
           d="M0,320L0,320L120,373C240,427,480,533,720,550C960,567,1200,493,1320,456L1440,420L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
         ></path>
