@@ -21,7 +21,7 @@ const Final = () => {
           </div>
 
           <a
-            href="LICENSE"
+            href="https://www.apache.org/licenses/LICENSE-2.0.txt"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-[#1DA1F2]"
@@ -33,7 +33,7 @@ const Final = () => {
           <h3 className="text-3xl font-semibold mb-4">Community</h3>
           <div className="space-y-4">
             <a
-              href="https://discord.gg/your-discord"
+              href="https://discord.com/invite/r8Mb7xnyTf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-gray-600 hover:text-[#5865F2] transition-colors"
@@ -42,7 +42,7 @@ const Final = () => {
               <span>Discord</span>
             </a>
             <a
-              href="https://www.youtube.com/your-channel"
+              href="https://www.youtube.com/@IohkIo/streams"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-gray-600 hover:text-[#FF0000] transition-colors"
@@ -51,7 +51,7 @@ const Final = () => {
               <span>YouTube</span>
             </a>
             <a
-              href="https://twitter.com/your-twitter"
+              href="https://twitter.com/Catalyst_onX/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 text-gray-600 hover:text-[#1DA1F2] transition-colors"
