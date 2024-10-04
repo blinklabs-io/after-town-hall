@@ -38,7 +38,7 @@ const NavLink = ({
 
 const NavBar: React.FC = () => {
   return (
-    <header className="fixed w-full top-0 z-50 flex font-semibold bg-slate-100 bg-opacity-40">
+    <header className="fixed w-full top-0 z-50 flex font-semibold bg-slate-100 bg-opacity-100">
       <nav className="w-full flex items-center py-4 px-8  justify-between">
         <div className="flex items-center">
           <div className="flex items-center mr-80">
@@ -69,7 +69,7 @@ const NavBar: React.FC = () => {
             <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
           </a>
           <a
-            href="https://twitter.com/InputOutputHK/"
+            href="https://twitter.com/Catalyst_onX/"
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium relative group"
