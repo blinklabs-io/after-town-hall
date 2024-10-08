@@ -11,7 +11,7 @@ export default {
       },
       screens: {
         phone: '430px',
-
+        md: '810px',
         lg: '1150px',
         '3xl': '1550px',
       },
