@@ -88,9 +88,7 @@ const data = {
     {
       name: 'Fund 13 x Cardano Foundation',
       host: 'Alex Maaza',
-      description: 'Building on insights from Fund 12, the Cardano Foundation's involvement in Fund 13 focuses on 
-      enterprise adoption and deeper engagement. Join us to learn how we’re driving impactful change and how you 
-      can get involved in shaping the ecosystem!',
+      description: 'Building on insights from Fund 12, the Cardano Foundations involvement in Fund 13 focuses on enterprise adoption and deeper engagement. Join us to learn how were driving impactful change and how you can get involved in shaping the ecosystem!',
     },
     {
       name: 'PeakChain Blockchain & AI mobility Platform',
