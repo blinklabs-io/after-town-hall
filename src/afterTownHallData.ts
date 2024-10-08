@@ -81,7 +81,7 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Alternative Catalyst voting schemes  with new crypto protocols',
+      name: 'Alternative Catalyst voting schemes',
       host: 'Catalyst, IOG Research, & Photrek',
       description: 'Presenting milestone 3 Analyses of the selected voting schemes with new crypto protocols',
     },
