@@ -27,13 +27,12 @@ const data = {
   ],
   communityEvents: [
     {
-      name: 'Andamio',
-      time: 'Mondays 13:00 UTC',
-      zoomLink:
-        'https://us06web.zoom.us/meeting/register/tZwtcemrqTwoG9fYL2pYvrCwQG9u2tJNmqa6#/registration',
+      name: 'Cardano Over Coffee',
+      time: 'Weekdays 3:30 UTC',
+      link: 'https://twitter.com/LidoNation',
       description:
-        'Andamio Cardano Go Live Coding every Monday, a F11 funded proposal, to build Andamio CLI (written in Go) in public.',
-    },
+        'Join the Cardano Over Coffee crew on Twitter, supporting the community and newcomers to engage with Cardano and the Catalyst Ecosystem.',
+    }, 
     {
       name: 'Gimbalabs',
       time: 'Tuesdays 18:00 UTC',
@@ -43,11 +42,12 @@ const data = {
         'Gimbalabs Playground every Tuesday, an open space for small groups to get together, learn + build in public.',
     },
     {
-      name: 'Cardano Over Coffee',
-      time: 'Weekdays 3:30 UTC',
-      link: 'https://twitter.com/LidoNation',
+      name: 'NFT Guild',
+      time: 'Every other Tuesday 3PM UTC',
+      zoomLink:
+        'https://us02web.zoom.us/meeting/register/tZElfu2srzssGNw7jfgpQMdPAA-XJm7L9gKZ#/registration',
       description:
-        'Join the Cardano Over Coffee crew on Twitter, supporting the community and newcomers to engage with Cardano and the Catalyst Ecosystem.',
+        'An open-format where the community is invited to discuss current topics in the Cardano NFT ecosystem, receive guidance and tips from community veterans.',
     },
     {
       name: '45b Open Hours',
@@ -64,21 +64,6 @@ const data = {
       description: "Wada's Web3 Africa weekly. Join us!",
     },
     {
-      name: 'Eu Cardano Community',
-      time: 'Date & Time varies',
-      link: 'https://twitter.com/EuCardano',
-      description:
-        'Join the Eu Cardano Community for language themed Twitter spaces! Stay up to date on Twitter! Missing your language? Talk to us and become a host.',
-    },
-    {
-      name: 'NFT Guild',
-      time: 'Every other Tuesday 3PM UTC',
-      zoomLink:
-        'https://us02web.zoom.us/meeting/register/tZElfu2srzssGNw7jfgpQMdPAA-XJm7L9gKZ#/registration',
-      description:
-        'An open-format where the community is invited to discuss current topics in the Cardano NFT ecosystem, receive guidance and tips from community veterans.',
-    },
-    {
       name: 'ODIN',
       time: '1st Thursday of the month 5PM UTC',
       zoomLink:
@@ -86,12 +71,29 @@ const data = {
       description:
         'Anyone interested in being part of an Open Decentralized Innovation Network that uses Sociocracy 3.0 principles and patterns is welcome to join us!',
     },
+    {
+      name: 'Eu Cardano Community',
+      time: 'Date & Time varies',
+      link: 'https://twitter.com/EuCardano',
+      description:
+        'Join the Eu Cardano Community for language themed Twitter spaces! Stay up to date on Twitter! Missing your language? Talk to us and become a host.',
+    },
   ],
   breakoutRooms: [
     {
-      name: 'Coming in September',
-      host: 'To Be Determined',
-      description: 'Coming Soon',
+      name: 'Alternative Catalyst voting schemes  with new crypto protocols',
+      host: 'Catalyst, IOG Research, & Photrek',
+      description: 'Presenting milestone 3 Analyses of the selected voting schemes with new crypto protocols',
+    },
+    {
+      name: 'Fund 13 x Cardano Foundation',
+      host: 'Alex Maaza',
+      description: 'Building on insights from Fund 12, the Cardano Foundations involvement in Fund 13 focuses on enterprise adoption and deeper engagement. Join us to learn how were driving impactful change and how you can get involved in shaping the ecosystem!',
+    },
+    {
+      name: 'PeakChain Blockchain & AI mobility Platform',
+      host: 'Hichem BenRejeb',
+      description: 'Join us as we present our Fund 13 Proposals and talk about their impact',
     },
     {
       name: 'Townhall Check-In',
@@ -116,7 +118,7 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday October 2nd, 2024',
+    date: 'Wednesday October 9th, 2024',
     upcomingEvent: 'Fund 13: Submit proposals until Oct 10th',
   },
 };
