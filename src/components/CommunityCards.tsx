@@ -35,8 +35,8 @@ const CommunityCards = () => {
               d="M0,320L0,320L120,373C240,427,480,533,720,550C960,567,1200,493,1320,456L1440,420L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
             ></path>
           </svg>
-          <div className="flex flex-col justify-between p-6 h-full">
-            <h2 className="text-white text-2xl font-semibold mb-8">
+          <div className="flex flex-col justify-between p-8 h-full">
+            <h2 className="text-white text-2xl phone:text-[16px] sm:text-md md:text-[16.5px] lg:text-lg xl:text-xl font-semibold mb-8">
               {comm.name}
             </h2>
 
@@ -52,7 +52,6 @@ const CommunityCards = () => {
               {comm.zoomLink ? 'Register Here →' : 'Join Here →'}
             </a>
           </div>
-          {/* Description overlay */}
           <div
             className={`absolute inset-0 bg-white  flex items-center justify-center p-4 transition-opacity duration-300 ${
               hoveredIndex === index ? 'opacity-100' : 'opacity-0'

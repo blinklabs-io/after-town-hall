@@ -5,17 +5,19 @@ import X from './assets/x.svg';
 const Final = () => {
   return (
     <>
-      <div className="min-h-[50vh] w-full flex justify-between items-center py-4 px-32 text-black bg-white">
+      <div className="min-h-[50vh] w-full flex phone:px-4 justify-between items-center sm:px-16 py-4 px-32 text-black bg-white">
         <div className="max-w-2xl">
-          <h2 className="text-4xl md:text-4xl font-bold mb-6 animate-fade-in-up">
+          <h2 className="text-4xl phone:text-[20px] md:text-4xl font-bold mb-4 animate-fade-in-up">
             Thank You For Your Support
           </h2>
-          <p className="text-xl md:text-2xl mb-4 ">
+          <p className="text-xl phone:text-[15px] md:text-2xl mb-4 ">
             Project Catalyst Community
           </p>
-          <p className="text-lg md:text-2xl mb-4 ">After Townhall</p>
+          <p className="text-lg md:text-2xl phone:text-[15px] mb-4 ">
+            After Townhall
+          </p>
           <div className="flex space-x-2">
-            <span className="text-lg mb-4">
+            <span className="text-lg phone:text-[15px] mb-4">
               We appreciate your participation!
             </span>
           </div>
@@ -24,13 +26,15 @@ const Final = () => {
             href="https://www.apache.org/licenses/LICENSE-2.0.txt"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-[#1DA1F2]"
+            className="hover:text-[#1DA1F2] phone:text-[15px]"
           >
             © 2024 Blink Labs Software. Apache License, 2.0
           </a>
         </div>
         <div>
-          <h3 className="text-3xl font-semibold mb-4">Community</h3>
+          <h3 className="text-3xl font-semibold mb-4 phone:text-[20px]">
+            Community
+          </h3>
           <div className="space-y-4">
             <a
               href="https://discord.com/invite/r8Mb7xnyTf"

@@ -16,7 +16,7 @@ const HostRoomCard = ({ br }: { br: BR }) => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 640"
-        className="absolute -z-10 w-full h-1/3"
+        className="absolute -z-10 w-full"
         preserveAspectRatio="none"
       >
         <path
@@ -27,7 +27,9 @@ const HostRoomCard = ({ br }: { br: BR }) => {
       </svg>
 
       <div className="flex flex-col justify-between items-center h-full p-6">
-        <h2 className="text-white text-2xl font-semibold">{br.name}</h2>
+        <h2 className="text-white text-2xl phone:text-[16px] sm:text-md md:text-[16.5px] lg:text-lg xl:text-xl font-semibold">
+          {br.name}
+        </h2>
         <p className="text-black text-lg font-bold text-opacity-80">
           {br.host}
         </p>
@@ -49,7 +51,7 @@ const HostRoomCard = ({ br }: { br: BR }) => {
             <X size={24} />
           </button>
           <p className="text-black font-bold mb-4">Host: {br.host}</p>
-          <p className="text-black p-6">{br.description}</p>
+          <p className="text-black p-6 md:text-sm ">{br.description}</p>
         </div>
       )}
     </div>

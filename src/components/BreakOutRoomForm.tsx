@@ -6,7 +6,7 @@ const BreakOutRoomForm = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 640"
-        className="absolute -z-10 w-full h-1/3"
+        className="absolute -z-10 w-full "
         preserveAspectRatio="none"
       >
         <path
@@ -17,10 +17,10 @@ const BreakOutRoomForm = () => {
       </svg>
 
       <div className="flex flex-col justify-between items-center h-full p-6 ">
-        <h2 className="text-white text-2xl font-semibold">
+        <h2 className="text-white text-2xl phone:text-[16px] sm:text-md md:text-md lg:text-lg xl:text-lg font-semibold">
           {data.hostYourRoom.description}
         </h2>
-        <p className="text-black text-lg font-bold text-opacity-80 mt-10">
+        <p className="text-black text-lg font-bold text-opacity-80 mt-20">
           {data.hostYourRoom.deadline}
         </p>
         <a
