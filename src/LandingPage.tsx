@@ -35,6 +35,20 @@ const LandingPage = () => {
     },
   };
 
+  const subtleBounce = {
+    hidden: { scale: 0.1 },
+    visible: {
+      scale: [1, 1.01, 1],
+      transition: {
+        duration: 1.5,
+        ease: 'easeInOut',
+        times: [0, 0.5, 1],
+        repeat: Infinity,
+        repeatDelay: 1,
+      },
+    },
+  };
+
   const crashDown3 = {
     hidden: { y: -1000, opacity: 0 },
     visible: {
@@ -76,7 +90,7 @@ const LandingPage = () => {
           variants={crashDown2}
           initial="hidden"
           animate="visible"
-          className="text-3xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl text-[#133CD3] font-semibold leading-tight mb-6 pl-16 "
+          className="text-3xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-8xl text-[#133CD3] font-semibold leading-tight mb-4 pl-16 "
         >
           AFTER TOWNHALL
         </motion.div>
@@ -92,6 +106,21 @@ const LandingPage = () => {
           date={data.generalInfo.date}
           message={data.generalInfo.upcomingEvent}
         />
+        <motion.div
+          variants={subtleBounce}
+          initial="hidden"
+          animate="visible"
+          className="text-md sm:text-md md:text-md lg:text-md xl:text-3xl text-[#133CD3] font-semibold leading-tight mt-5 pl-16 "
+        >
+          <a
+            href="https://bit.ly/catalyst-townhall"
+            className="text-[#133CD3] hover:text-gray-900"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Click Here For The Townhall! →
+          </a>{' '}
+        </motion.div>
       </div>
       <Link
         to="global"
