@@ -110,7 +110,7 @@ const LandingPage = () => {
           variants={subtleBounce}
           initial="hidden"
           animate="visible"
-          className="text-md sm:text-md md:text-md lg:text-md xl:text-3xl text-[#133CD3] font-semibold leading-tight mt-5 pl-16 "
+          className="text-sm sm:text-sm md:text-md lg:text-md xl:text-2xl text-[#133CD3] font-semibold leading-tight mt-5 pl-16 "
         >
           <a
             href="https://bit.ly/catalyst-townhall"
@@ -118,7 +118,7 @@ const LandingPage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Click Here For The Townhall! →
+            Click here to register for the Townhall! →
           </a>{' '}
         </motion.div>
       </div>
@@ -129,7 +129,7 @@ const LandingPage = () => {
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2 cursor-pointer"
       >
         <motion.div animate={scrollAnimation}>
-          <ArrowDown size={48} color="#133CD3" />
+          <ArrowDown size={38} color="#133CD3" />
         </motion.div>
       </Link>
     </div>
