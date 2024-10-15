@@ -41,6 +41,14 @@ const data = {
       description:
         'Gimbalabs Playground every Tuesday, an open space for small groups to get together, learn + build in public.',
     },
+        {
+      name: 'ODIN',
+      time: 'Tuesdays at 5PM UTC',
+      zoomLink:
+        'https://us02web.zoom.us/j/88676315753?pwd=dlcrNTY5U1FwWkhZMzRtUlozZ291dz09',
+      description:
+        'Anyone interested in being part of an Open Decentralized Innovation Network that uses Sociocracy 3.0 principles and patterns is welcome to join us!',
+    },
     {
       name: 'NFT Guild',
       time: 'Every other Tuesday 3PM UTC',
@@ -64,14 +72,6 @@ const data = {
       description: "Wada's Web3 Africa weekly. Join us!",
     },
     {
-      name: 'ODIN',
-      time: '1st Thursday of the month 5PM UTC',
-      zoomLink:
-        'https://us02web.zoom.us/j/88676315753?pwd=dlcrNTY5U1FwWkhZMzRtUlozZ291dz09',
-      description:
-        'Anyone interested in being part of an Open Decentralized Innovation Network that uses Sociocracy 3.0 principles and patterns is welcome to join us!',
-    },
-    {
       name: 'Eu Cardano Community',
       time: 'Date & Time varies',
       link: 'https://twitter.com/EuCardano',
@@ -81,23 +81,13 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Alternative Catalyst voting schemes',
-      host: 'Catalyst, IOG Research, & Photrek',
-      description: 'Presenting milestone 3 Analyses of the selected voting schemes with new crypto protocols',
-    },
-    {
-      name: 'Fund 13 x Cardano Foundation',
-      host: 'Alex Maaza',
-      description: 'Building on insights from Fund 12, the Cardano Foundations involvement in Fund 13 focuses on enterprise adoption and deeper engagement. Join us to learn how were driving impactful change and how you can get involved in shaping the ecosystem!',
-    },
-    {
-      name: 'PeakChain Blockchain & AI mobility Platform',
-      host: 'Hichem BenRejeb',
-      description: 'Join us as we present our Fund 13 Proposals and talk about their impact',
+      name: '9 Phases of DAOification',
+      host: 'Logan Panchot',
+      description: 'In this breakout room we will discuss how Clarity is driving enterprise adoption with our DAO playbook.',
     },
     {
       name: 'Townhall Check-In',
-      host: 'Darlington Wleh',
+      host: 'Lidonation',
       description:
         "Check-in for today's Townhall and build your secure Cardano online reputation. Stop by this breakout room and quickly scan the QR code with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
     },
@@ -118,8 +108,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday October 9th, 2024',
-    upcomingEvent: 'Fund 13: Submit proposals until Oct 10th',
+    date: 'Wednesday October 16th, 2024',
+    upcomingEvent: 'Fund 13: Reviewer Registration Closes Oct 20th',
   },
 };
 
