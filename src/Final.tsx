@@ -22,14 +22,27 @@ const Final = () => {
             </span>
           </div>
 
-          <a
-            href="https://www.apache.org/licenses/LICENSE-2.0.txt"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-[#1DA1F2] phone:text-[15px]"
-          >
-            © 2024 Blink Labs Software. Apache License, 2.0
-          </a>
+          <div>
+            <a
+              href="https://blinklabs.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#1DA1F2] phone:text-[15px]"
+            >
+              © 2024 Blink Labs Software
+            </a>
+            </div>
+
+            <div>
+            <a
+              href="https://www.apache.org/licenses/LICENSE-2.0.txt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#1DA1F2] phone:text-[15px]"
+            >
+              Licensed under Apache License, 2.0
+            </a>
+          </div>
         </div>
         <div>
           <h3 className="text-3xl font-semibold mb-4 phone:text-[20px]">
