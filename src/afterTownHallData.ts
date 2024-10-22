@@ -81,9 +81,15 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: '9 Phases of DAOification',
-      host: 'Logan Panchot',
-      description: 'In this breakout room we will discuss how Clarity is driving enterprise adoption with our DAO playbook.',
+      name: 'Peakchain AI & Blockchain-powered Mobilitiy Solutions',
+      host: 'Hichem Benrejeb',
+      description: 'Join us in the "Peakchain AI & Blockchain-powered Mobility Solutions" breakout room to explore innovative strategies in sustainable mobility. We will discuss our proposals on how AI and blockchain technology can transform transportation, enhance user experience, and promote eco-friendly solutions. Engage in conversations about the future of mobility and share your insights on driving positive change in urban environments.',
+    },
+    {
+      name: 'Catalyst Voices MVE1: Spaces & Navigation',
+      host: 'Michael McNulty + Niels Kijf',
+      description:
+        "Join Mike and Niels from the Catalyst team for a presentation on the basic application structure and navigation experience in Catalyst Voices",
     },
     {
       name: 'Townhall Check-In',
@@ -108,8 +114,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday October 16th, 2024',
-    upcomingEvent: 'Fund 13: Reviewer Registration Closes Oct 20th',
+    date: 'Wednesday October 23rd, 2024',
+    upcomingEvent: 'Fund 13: Proposal Reviews Begin Oct 24th',
   },
 };
 
