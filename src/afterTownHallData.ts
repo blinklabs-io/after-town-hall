@@ -34,20 +34,28 @@ const data = {
         'Join the Cardano Over Coffee crew on Twitter, supporting the community and newcomers to engage with Cardano and the Catalyst Ecosystem.',
     }, 
     {
+      name: 'ODIN Community',
+      time: 'Mondays at 18:00 UTC',
+      zoomLink:
+        'https://meet.google.com/vnd-zdie-efs',
+      description:
+        'Anyone interested in being part of an Open Decentralized Innovation Network is welcome to join us!',
+    },
+    {
       name: 'Gimbalabs',
       time: 'Tuesdays 18:00 UTC',
       zoomLink:
-        'https://us06web.zoom.us/meeting/register/tZYoduuqpjsqGtdzMHXoRVVnJqcQGOtpQRQv#/registration',
+        'https://us06web.zoom.us/j/81307648064?pwd=xVntZg38IJPQ8GvD9ZbEY3zaOLIz4s.1',
       description:
         'Gimbalabs Playground every Tuesday, an open space for small groups to get together, learn + build in public.',
     },
-        {
-      name: 'ODIN',
-      time: 'Tuesdays at 5PM UTC',
+    {
+      name: 'ODIN Sociocracy',
+      time: 'Tuesdays at 22:00 UTC',
       zoomLink:
-        'https://us02web.zoom.us/j/88676315753?pwd=dlcrNTY5U1FwWkhZMzRtUlozZ291dz09',
+        'https://meet.google.com/mrh-duur-rdw',
       description:
-        'Anyone interested in being part of an Open Decentralized Innovation Network that uses Sociocracy 3.0 principles and patterns is welcome to join us!',
+        'Anyone interested in learning more about Sociocracy 3.0 principles and patterns is welcome to join us!',
     },
     {
       name: 'NFT Guild',
@@ -72,6 +80,14 @@ const data = {
       description: "Wada's Web3 Africa weekly. Join us!",
     },
     {
+      name: 'Intersect Town Halls',
+      time: '4th Thursdays 16:00 UTC',
+      zoomLink:
+        'https://bit.ly/46nPeKJ',
+      description:
+        'Intersect Town Halls and After Town Halls facilitated by Swarm.',
+    },
+    {
       name: 'Eu Cardano Community',
       time: 'Date & Time varies',
       link: 'https://twitter.com/EuCardano',
@@ -81,15 +97,20 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Peakchain AI & Blockchain-powered Mobilitiy Solutions',
-      host: 'Hichem Benrejeb',
-      description: 'Join us in the "Peakchain AI & Blockchain-powered Mobility Solutions" breakout room to explore innovative strategies in sustainable mobility. We will discuss our proposals on how AI and blockchain technology can transform transportation, enhance user experience, and promote eco-friendly solutions. Engage in conversations about the future of mobility and share your insights on driving positive change in urban environments.',
+      name: 'Dispute resolution for Cardano',
+      host: 'Nimrod Knoller + Gerrit Brugge',
+      description: 'Why dispute resolution by forking is no longer an option for Cardano? What are the dangers? What can we do?',
     },
     {
-      name: 'Catalyst Voices MVE1: Spaces & Navigation',
-      host: 'Michael McNulty + Niels Kijf',
+      name: 'Bringing People from outside into web3 with DAOs',
+      host: 'Logan',
       description:
-        "Join Mike and Niels from the Catalyst team for a presentation on the basic application structure and navigation experience in Catalyst Voices",
+        "This is a room where we will have a conversation about different DAO use cases Clarity is looking at in traditional industries. All ideas are welcome!",
+    },
+    {
+      name: 'What is the highest potential for human collaboration?',
+      host: 'Ken Stanton',
+      description: 'Catalyst Voices showed work towards improving our proposal and voting process. Ken is worried that our highest potential may not even involve proposals and voting! Should our framework for experiments account for that possibility?',
     },
     {
       name: 'Townhall Check-In',
@@ -114,8 +135,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday October 23rd, 2024',
-    upcomingEvent: 'Fund 13: Proposal Reviews Begin Oct 24th',
+    date: 'Wednesday October 30th, 2024',
+    upcomingEvent: 'Fund 13: Proposal Community Reviews Delayed',
   },
 };
 
