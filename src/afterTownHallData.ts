@@ -97,6 +97,11 @@ const data = {
   ],
   breakoutRooms: [
     {
+      name: 'Dispute resolution for Cardano',
+      host: 'Nemo + Martin',
+      description: 'Why dispute resolution by forking is no longer an option for Cardano? What are the dangers? What can we do?',
+    },
+    {
       name: 'Respect Games on Cardano',
       host: 'Jorge Ramos',
       description: 'Who is actually doing the work? Who does deserve the greatest respect? Who is going the extra mile?',
