@@ -97,20 +97,14 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Dispute resolution for Cardano',
-      host: 'Nimrod Knoller + Gerrit Brugge',
-      description: 'Why dispute resolution by forking is no longer an option for Cardano? What are the dangers? What can we do?',
+      name: 'Respect Games on Cardano',
+      host: 'Jorge Ramos',
+      description: 'Who is actually doing the work? Who does deserve the greatest respect? Who is going the extra mile?',
     },
     {
-      name: 'Bringing People from outside into web3 with DAOs',
-      host: 'Logan',
-      description:
-        "This is a room where we will have a conversation about different DAO use cases Clarity is looking at in traditional industries. All ideas are welcome!",
-    },
-    {
-      name: 'What is the highest potential for human collaboration?',
+      name: 'Exploring the highest potential for human collaboration',
       host: 'Ken Stanton',
-      description: 'Catalyst Voices showed work towards improving our proposal and voting process. Ken is worried that our highest potential may not even involve proposals and voting! Should our framework for experiments account for that possibility?',
+      description: 'Let us look at some ideas to improve collaboration in our community!',
     },
     {
       name: 'Townhall Check-In',
@@ -135,8 +129,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday October 30th, 2024',
-    upcomingEvent: 'Fund 13: Proposal Community Reviews Delayed',
+    date: 'Wednesday November 7th, 2024',
+    upcomingEvent: 'Fund 13: L0/L1 Community Reviews until Nov 10th',
   },
 };
 
