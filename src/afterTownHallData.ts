@@ -97,19 +97,24 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Dispute resolution for Cardano',
-      host: 'Nemo + Martin',
-      description: 'Why dispute resolution by forking is no longer an option for Cardano? What are the dangers? What can we do?',
+      name: 'Polkadot Governance - What can we learn?',
+      host: 'Felix',
+      description: 'Sharing some overview and insights on Polkadot Governance, a open session to ask questions and to explore what we can learn from OpenGov',
     },
     {
       name: 'Respect Games on Cardano',
       host: 'Jorge Ramos',
-      description: 'Who is actually doing the work? Who does deserve the greatest respect? Who is going the extra mile?',
+      description: 'Who did the most for the Cardano ecosystem this week, according to the community? Lets find out?',
     },
     {
-      name: 'Exploring the highest potential for human collaboration',
-      host: 'Ken Stanton',
-      description: 'Let us look at some ideas to improve collaboration in our community!',
+      name: 'Empowering Students with Cardano',
+      host: 'Athika Fatima',
+      description: 'Empowering Students with Cardano: Explore how Cardano’s blockchain technology can drive innovation, learning, and career opportunities for students. Join us for insights into real-world applications, development resources, and community-building on Cardano.',
+    },
+        {
+      name: 'Mobility Solutions',
+      host: 'Ahlem Sahli',
+      description: 'Join us as we present our 3 proposals aiming to revolutionize mobility with blockchain and AI',
     },
     {
       name: 'Townhall Check-In',
@@ -134,8 +139,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday November 7th, 2024',
-    upcomingEvent: 'Fund 13: L0/L1 Community Reviews until Nov 10th',
+    date: 'Wednesday November 13th, 2024',
+    upcomingEvent: 'ATH resumes in Dec. Proposal Pitch Fest: Nov 20th General Categories; Nov 27th Partner Categories',
   },
 };
 
