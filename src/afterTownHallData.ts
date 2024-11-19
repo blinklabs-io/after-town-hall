@@ -97,24 +97,9 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Polkadot Governance - What can we learn?',
-      host: 'Felix',
-      description: 'Sharing some overview and insights on Polkadot Governance, a open session to ask questions and to explore what we can learn from OpenGov',
-    },
-    {
-      name: 'Respect Games on Cardano',
-      host: 'Jorge Ramos',
-      description: 'Who did the most for the Cardano ecosystem this week, according to the community? Lets find out?',
-    },
-    {
-      name: 'Empowering Students with Cardano',
-      host: 'Athika Fatima',
-      description: 'Empowering Students with Cardano: Explore how Cardano’s blockchain technology can drive innovation, learning, and career opportunities for students. Join us for insights into real-world applications, development resources, and community-building on Cardano.',
-    },
-        {
-      name: 'Mobility Solutions',
-      host: 'Ahlem Sahli',
-      description: 'Join us as we present our 3 proposals aiming to revolutionize mobility with blockchain and AI',
+      name: 'Clarity: Cardano Governance Tooling',
+      host: 'Logan Panchot',
+      description: 'In this room we will present and discuss Claritys Fund13 proposals and roadmap.',
     },
     {
       name: 'Townhall Check-In',
@@ -139,8 +124,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday November 13th, 2024',
-    upcomingEvent: 'ATH resumes in Dec. Proposal Pitch Fest: Nov 20th General Categories; Nov 27th Partner Categories',
+    date: 'Wednesday November 20th, 2024',
+    upcomingEvent: 'Proposal Pitch Fest: First Week of December',
   },
 };
 
