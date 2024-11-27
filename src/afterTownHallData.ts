@@ -97,11 +97,6 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Clarity: Cardano Governance Tooling',
-      host: 'Logan Panchot',
-      description: 'In this room we will present and discuss Claritys Fund13 proposals and roadmap.',
-    },
-    {
       name: 'Townhall Check-In',
       host: 'Lidonation',
       description:
@@ -124,7 +119,7 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday November 20th, 2024',
+    date: 'Wednesday November 27th, 2024',
     upcomingEvent: 'Proposal Pitch Fest: First Week of December',
   },
 };
