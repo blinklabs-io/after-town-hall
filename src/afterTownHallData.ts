@@ -97,6 +97,18 @@ const data = {
   ],
   breakoutRooms: [
     {
+      name: 'LALKUL DRep & Photrek Governance',
+      host: 'Megan Hess',
+      description:
+        "Learn more about LALKUL dRep, developed by Photrek. LALKUL dRep goes beyond being just a Delegate Representative — it is a comprehensive framework designed to empower all DReps. Join us and get involved!",
+    },
+    {
+      name: 'Respect Games',
+      host: 'Jorge Ramos',
+      description:
+        "Respect Games asks, Who has contributed the most to the Cardano Ecosystem? Who deserves the most Respect from the community? Let's find out!",
+    },
+    {
       name: 'Townhall Check-In',
       host: 'Lidonation',
       description:
@@ -119,8 +131,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday November 27th, 2024',
-    upcomingEvent: 'Proposal Pitch Fest: First Week of December',
+    date: 'Wednesday December 11th, 2024',
+    upcomingEvent: 'Catalyst F13 Voting until Dec 12th 11am UTC',
   },
 };
 
