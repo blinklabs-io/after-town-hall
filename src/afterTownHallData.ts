@@ -97,16 +97,16 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'LALKUL DRep & Photrek Governance',
-      host: 'Megan Hess',
+      name: 'Landano Mendix Plugin Demo & Review',
+      host: 'Aaron Moguin +	Dorus van der Kroft',
       description:
-        "Learn more about LALKUL dRep, developed by Photrek. LALKUL dRep goes beyond being just a Delegate Representative — it is a comprehensive framework designed to empower all DReps. Join us and get involved!",
+        "Mendix is a low-code dev platform. Landano is developing a Cardano Mendix plugin to open up creation of enterprise-grade applications on Cardano to a much wider community.",
     },
     {
-      name: 'Respect Games',
-      host: 'Jorge Ramos',
+      name: 'Data-Driven Catalyst: data insights & recommendations',
+      host: 'Thomas Wedler + June Akra',
       description:
-        "Respect Games asks, Who has contributed the most to the Cardano Ecosystem? Who deserves the most Respect from the community? Let's find out!",
+        "We want to give the community access to tools and data for insights and data visualization. How to improve Catalyst, increase funding success or detect manipulation?",
     },
     {
       name: 'Townhall Check-In',
@@ -131,8 +131,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday December 11th, 2024',
-    upcomingEvent: 'Catalyst F13 Voting until Dec 12th 11am UTC',
+    date: 'Wednesday December 18th, 2024',
+    upcomingEvent: 'Thank you Project Catalyst Community! This is the last Townhall this month/year! Jan 22nd & 29th will be F13 Retrospectives. Join us!',
   },
 };
 
