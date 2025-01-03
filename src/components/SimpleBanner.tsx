@@ -20,7 +20,7 @@ const SimpleBanner = ({ date, message }: Banner) => {
         }}
       >
         <span className="mb-8">{date}</span>
-        <span>{message}</span>
+        <span className="leading-relaxed whitespace-pre-line">{message}</span>
       </motion.div>
     </div>
   );
