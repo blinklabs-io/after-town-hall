@@ -97,16 +97,10 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Landano Mendix Plugin Demo & Review',
-      host: 'Aaron Moguin +	Dorus van der Kroft',
+      name: 'Coming Again later in February',
+      host: 'Your Name Here',
       description:
-        "Mendix is a low-code dev platform. Landano is developing a Cardano Mendix plugin to open up creation of enterprise-grade applications on Cardano to a much wider community.",
-    },
-    {
-      name: 'Data-Driven Catalyst: data insights & recommendations',
-      host: 'Thomas Wedler + June Akra',
-      description:
-        "We want to give the community access to tools and data for insights and data visualization. How to improve Catalyst, increase funding success or detect manipulation?",
+        "Detail about YOUR breakout room could be here.",
     },
     {
       name: 'Townhall Check-In',
@@ -131,8 +125,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday December 18th, 2024',
-    upcomingEvent: 'Thank you Project Catalyst Community! This is the last Townhall this month/year! Jan 22nd & 29th will be F13 Retrospectives. Join us!',
+    date: 'Wednesday January 29th, 2025',
+    upcomingEvent: 'Welcome to a Catalyst Fund 13 Restrospective on Wednesday Jan-29 & Feb-05. Join us!',
   },
 };
 
