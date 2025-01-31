@@ -67,10 +67,10 @@ const data = {
     },
     {
       name: '45b Open Hours',
-      time: 'Wednesdays at 3pm UTC',
+      time: 'Date & Time varies',
       link: 'https://lu.ma/45B-Open-hours',
       description:
-        'Join us for hands-on, non-technical, web3 end user onboarding!',
+        'Check our calendar for the latest updates. Join us for hands-on, non-technical, web3 end user onboarding!',
     },
     {
       name: 'Wada Forum',
