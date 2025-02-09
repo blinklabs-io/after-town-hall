@@ -97,7 +97,7 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Coming Again later in February',
+      name: 'Coming Again Soon',
       host: 'Your Name Here',
       description:
         "Detail about YOUR breakout room could be here.",
@@ -125,8 +125,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday January 29th, 2025',
-    upcomingEvent: 'Welcome to a Catalyst Fund 13 Restrospective on Wednesday Jan-29 & Feb-05. Join us!',
+    date: 'February 2025',
+    upcomingEvent: 'The Townhall and After Townhall is currently on hold, pending Fund 14. (Which needs an approved budget) ',
   },
 };
 
