@@ -58,14 +58,6 @@ const data = {
         'Anyone interested in learning more about Sociocracy 3.0 principles and patterns is welcome to join us!',
     },
     {
-      name: 'NFT Guild',
-      time: 'Every other Tuesday 3PM UTC',
-      zoomLink:
-        'https://us02web.zoom.us/meeting/register/tZElfu2srzssGNw7jfgpQMdPAA-XJm7L9gKZ#/registration',
-      description:
-        'An open-format where the community is invited to discuss current topics in the Cardano NFT ecosystem, receive guidance and tips from community veterans.',
-    },
-    {
       name: '45b Open Hours',
       time: 'Date & Time varies',
       link: 'https://lu.ma/45B-Open-hours',
@@ -125,7 +117,7 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'February 2025',
+    date: 'March 2025',
     upcomingEvent: 'The Townhall and After Townhall is currently on hold, pending Fund 14. (Which needs an approved budget) ',
   },
 };
