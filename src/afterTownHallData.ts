@@ -89,10 +89,10 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Coming Again Soon',
+      name: 'Book A Breakout Room',
       host: 'Your Name Here',
       description:
-        "Detail about YOUR breakout room could be here.",
+        "Details about YOUR breakout room could be here.",
     },
     {
       name: 'Townhall Check-In',
@@ -117,8 +117,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
   },
   generalInfo: {
-    date: 'March 2025',
-    upcomingEvent: 'The Townhall and After Townhall is currently on hold, pending Fund 14. (Which needs an approved budget) ',
+    date: 'May 2025',
+    upcomingEvent: 'The Townhall and After Townhall has returned! Join us on Wednesdays at 5PM UTC ',
   },
 };
 
