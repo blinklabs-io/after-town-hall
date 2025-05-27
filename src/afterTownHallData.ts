@@ -1,12 +1,6 @@
 const data = {
   townhalls: [
     {
-      name: 'Eastern Townhall',
-      time: 'Each 1st Thursday (until Dec) - 09:00 UTC',
-      zoomLink:
-        'https://us02web.zoom.us/meeting/register/tZcqcOCopjsuGNd0IAZPoGfYNEYCXO_prtEd#/registration',
-    },
-    {
       name: 'Latam Townhall',
       time: 'Bi-weekly on Thursday - 21:30 UTC',
       zoomLink:
@@ -16,7 +10,7 @@ const data = {
       name: 'Europe Townhall',
       time: 'Each 2nd Thursday - 17:30 UTC',
       zoomLink:
-        'https://us06web.zoom.us/meeting/register/tZ0vcOmvrTgrHdCNi3AMKn-bnSroZV50eDCE#/registration',
+        'https://us06web.zoom.us/j/86885329886?pwd=K1iHnvEeTm4YNECQszhkqN1jIKQmuM.1',
     },
     {
       name: 'Africa Townhall',
@@ -29,7 +23,7 @@ const data = {
     {
       name: 'Cardano Over Coffee',
       time: 'Weekdays 3:30 UTC',
-      link: 'https://twitter.com/LidoNation',
+      link: 'https://x.com/coc_space',
       description:
         'Join the Cardano Over Coffee crew on Twitter, supporting the community and newcomers to engage with Cardano and the Catalyst Ecosystem.',
     }, 
@@ -72,14 +66,6 @@ const data = {
       description: "Wada's Web3 Africa weekly. Join us!",
     },
     {
-      name: 'Intersect Town Halls',
-      time: '4th Thursdays 16:00 UTC',
-      zoomLink:
-        'https://bit.ly/46nPeKJ',
-      description:
-        'Intersect Town Halls and After Town Halls facilitated by Swarm.',
-    },
-    {
       name: 'Eu Cardano Community',
       time: 'Date & Time varies',
       link: 'https://twitter.com/EuCardano',
@@ -89,10 +75,10 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Book A Breakout Room',
-      host: 'Your Name Here',
+      name: 'Catalyst Explorer',
+      host: 'Darlington Wleh',
       description:
-        "Details about YOUR breakout room could be here.",
+        "Let's talk about what we've been building, www.catalystexplorer.com, what you like, what you don't like - what do you waant to see?",
     },
     {
       name: 'Townhall Check-In',
