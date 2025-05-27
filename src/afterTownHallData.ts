@@ -1,12 +1,6 @@
 const data = {
   townhalls: [
     {
-      name: 'Eastern Townhall',
-      time: 'Each 1st Thursday (until Dec) - 09:00 UTC',
-      zoomLink:
-        'https://us02web.zoom.us/meeting/register/tZcqcOCopjsuGNd0IAZPoGfYNEYCXO_prtEd#/registration',
-    },
-    {
       name: 'Latam Townhall',
       time: 'Bi-weekly on Thursday - 21:30 UTC',
       zoomLink:
@@ -16,7 +10,7 @@ const data = {
       name: 'Europe Townhall',
       time: 'Each 2nd Thursday - 17:30 UTC',
       zoomLink:
-        'https://us06web.zoom.us/meeting/register/tZ0vcOmvrTgrHdCNi3AMKn-bnSroZV50eDCE#/registration',
+        'https://us06web.zoom.us/j/86885329886?pwd=K1iHnvEeTm4YNECQszhkqN1jIKQmuM.1',
     },
     {
       name: 'Africa Townhall',
@@ -70,14 +64,6 @@ const data = {
       zoomLink:
         'https://us06web.zoom.us/meeting/register/tZcrfu2hrDMpHd1v6eebrBGfKWAEMmdhhoYV?_x_zm_rtaid=WJGYusrOR6q_71oXEtVBkg.1714384468859.fa37b2a6d59799c9390a21401df8f7de&_x_zm_rhtaid=612#/registration',
       description: "Wada's Web3 Africa weekly. Join us!",
-    },
-    {
-      name: 'Intersect Town Halls',
-      time: '4th Thursdays 16:00 UTC',
-      zoomLink:
-        'https://bit.ly/46nPeKJ',
-      description:
-        'Intersect Town Halls and After Town Halls facilitated by Swarm.',
     },
     {
       name: 'Eu Cardano Community',
