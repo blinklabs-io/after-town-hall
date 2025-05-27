@@ -29,7 +29,7 @@ const data = {
     {
       name: 'Cardano Over Coffee',
       time: 'Weekdays 3:30 UTC',
-      link: 'https://twitter.com/LidoNation',
+      link: 'https://x.com/coc_space',
       description:
         'Join the Cardano Over Coffee crew on Twitter, supporting the community and newcomers to engage with Cardano and the Catalyst Ecosystem.',
     }, 
@@ -89,10 +89,10 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Book A Breakout Room',
-      host: 'Your Name Here',
+      name: 'Catalyst Explorer',
+      host: 'Darlington Wleh',
       description:
-        "Details about YOUR breakout room could be here.",
+        "Let's talk about what we've been building, wwww.catalystexplorer.com, what you like, what you don't like - what do you waant to see?",
     },
     {
       name: 'Townhall Check-In',
