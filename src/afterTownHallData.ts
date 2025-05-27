@@ -92,7 +92,7 @@ const data = {
       name: 'Catalyst Explorer',
       host: 'Darlington Wleh',
       description:
-        "Let's talk about what we've been building, wwww.catalystexplorer.com, what you like, what you don't like - what do you waant to see?",
+        "Let's talk about what we've been building, www.catalystexplorer.com, what you like, what you don't like - what do you waant to see?",
     },
     {
       name: 'Townhall Check-In',
