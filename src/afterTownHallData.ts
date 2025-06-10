@@ -39,7 +39,7 @@ const data = {
       name: 'Gimbalabs',
       time: 'Tuesdays 18:00 UTC',
       zoomLink:
-        'https://us06web.zoom.us/j/81307648064?pwd=xVntZg38IJPQ8GvD9ZbEY3zaOLIz4s.1',
+        'https://us06web.zoom.us/meeting/register/tZIkdOihpj4vHt3w5k_fqLDVCh65IwVeYAM1',
       description:
         'Gimbalabs Playground every Tuesday, an open space for small groups to get together, learn + build in public.',
     },
@@ -75,10 +75,10 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Catalyst Explorer',
-      host: 'Darlington Wleh',
+      name: '45b ongoing projects & initiatives',
+      host: 'Pedro Lucas',
       description:
-        "Let's talk about what we've been building, www.catalystexplorer.com, what you like, what you don't like - what do you waant to see?",
+        "45B.io is happy to align with the Cardano community and eager to get feedback on several ongoing initiatives and projects spanning Governance, Cardano Grassroots, DApp design, and especially Web3 communication to get real-world users.",
     },
     {
       name: 'Townhall Check-In',
@@ -100,11 +100,11 @@ const data = {
   hostYourRoom: {
     formLink: 'https://forms.gle/rQrrZSCVEyekF8sG9',
     description: 'Room Requests',
-    deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
+    deadline: 'Breakout Room requests due by Tuesdays 13:00 UTC.',
   },
   generalInfo: {
-    date: 'May 2025',
-    upcomingEvent: 'The Townhall and After Townhall has returned! Join us on Wednesdays at 5PM UTC ',
+    date: 'June 2025',
+    upcomingEvent: 'The Townhall & After Townhall has returned! Join us on Wednesdays at 5PM UTC',
   },
 };
 
