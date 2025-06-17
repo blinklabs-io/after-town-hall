@@ -75,10 +75,10 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: '45b ongoing projects & initiatives',
-      host: 'Pedro Lucas',
+      name: 'Showcase your project!',
+      host: 'Your name',
       description:
-        "45B.io is happy to align with the Cardano community and eager to get feedback on several ongoing initiatives and projects spanning Governance, Cardano Grassroots, DApp design, and especially Web3 communication to get real-world users.",
+        "Your projects story here!",
     },
     {
       name: 'Townhall Check-In',
