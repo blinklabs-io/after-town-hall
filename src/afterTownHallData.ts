@@ -75,10 +75,10 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Showcase your project!',
-      host: 'Your name',
+      name: 'Verifiable Credentials - LidoNation',
+      host: 'Darlington Wleh + Donbosco Otunga',
       description:
-        "Your projects story here!",
+        "Exploring the use cases for verifiable credentials.",
     },
     {
       name: 'Townhall Check-In',
@@ -94,7 +94,7 @@ const data = {
     {
       name: 'Open Rooms',
       host: 'Cardano Community',
-      description: '3 Extra rooms',
+      description: '3 Extra rooms, available to anyone who wants to continue a conversation from chat or talk more about anything Cardano',
     },
   ],
   hostYourRoom: {
@@ -103,7 +103,7 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 13:00 UTC.',
   },
   generalInfo: {
-    date: 'June 2025',
+    date: 'July 2025',
     upcomingEvent: 'The Townhall & After Townhall has returned! Join us on Wednesdays at 5PM UTC',
   },
 };
