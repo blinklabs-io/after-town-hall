@@ -75,12 +75,6 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Verifiable Credentials - LidoNation',
-      host: 'Darlington Wleh + Donbosco Otunga',
-      description:
-        "Exploring the use cases for verifiable credentials.",
-    },
-    {
       name: 'Townhall Check-In',
       host: 'Lidonation',
       description:
