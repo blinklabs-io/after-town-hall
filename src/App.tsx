@@ -16,16 +16,16 @@ function App() {
         <NavBar />
         <div className="gradient-background">
           <div className="h-screen flex flex-col ">
-            <div className="flex-grow">
+            <div className="grow">
               <LandingPage />
             </div>
           </div>
         </div>
         <Rooms />
         <div className="flex items-center justify-center w-full mt-10">
-          <div className="w-full h-px bg-gray-400 flex-grow" />
+          <div className="w-full h-px bg-gray-400 grow" />
           <img className="px-4 text-gray-500 w-64" src={Logo}></img>
-          <div className="w-full h-px bg-gray-400 flex-grow" />
+          <div className="w-full h-px bg-gray-400 grow" />
         </div>
 
         <Final />
