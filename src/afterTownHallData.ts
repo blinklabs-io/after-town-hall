@@ -1,12 +1,6 @@
 const data = {
   townhalls: [
     {
-      name: 'Latam Townhall',
-      time: 'Bi-weekly on Thursday - 21:30 UTC',
-      zoomLink:
-        'https://us02web.zoom.us/meeting/register/tZUucO2sqTktHdylwPNgHel_oh_skTNxZpHN#/registration',
-    },
-    {
       name: 'Europe Townhall',
       time: 'Each 2nd Thursday - 17:30 UTC',
       zoomLink:
@@ -16,7 +10,7 @@ const data = {
       name: 'Africa Townhall',
       time: 'Each 2nd Friday - 18:00 UTC',
       zoomLink:
-        'https://us02web.zoom.us/meeting/register/tZMvd-6gqjgqG91WwnmZlHuAbkolJsBPsUD6?_x_zm_rtaid=vzqpwtyzSoisRsU_-e_EVA.1692735851090.5c6b3798b99a6c6dcd9dcb9428660bc2&_x_zm_rhtaid=813#/registration',
+        'https://us05web.zoom.us/meeting/register/sVfe4cUTSJ2IlJxw3AFY2w#/registration',
     },
   ],
   communityEvents: [
