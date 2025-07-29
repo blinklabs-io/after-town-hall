@@ -92,7 +92,7 @@ const data = {
   },
   generalInfo: {
     date: 'July 2025',
-    upcomingEvent: 'The Townhall & After Townhall has returned! Join us on Wednesdays at 5PM UTC',
+    upcomingEvent: 'Fund14 has started! Join us on Wednesdays at 5PM UTC',
   },
 };
 
