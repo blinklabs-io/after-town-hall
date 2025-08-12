@@ -71,7 +71,7 @@ const data = {
     {
       name: 'Decentralizing the Potential for Human Collaboration',
       host: 'Jeffrey and Lewis',
-      description: 'Let's talk about the impact of Project Catalyst proposals',
+      description: 'Let us talk about the impact of Project Catalyst proposals',
     },
     {
       name: 'Townhall Check-In',
