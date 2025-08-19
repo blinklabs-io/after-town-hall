@@ -69,11 +69,6 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Decentralizing the Potential for Human Collaboration',
-      host: 'Jeffrey and Lewis',
-      description: 'Let us talk about the impact of Project Catalyst proposals',
-    },
-    {
       name: 'Townhall Check-In',
       host: 'Lidonation',
       description:
@@ -97,7 +92,7 @@ const data = {
   },
   generalInfo: {
     date: 'August 2025',
-    upcomingEvent: 'Fund14 submissions due by the 18th! Join us on Wednesdays at 3PM UTC',
+    upcomingEvent: 'Fund14 Community reviews start on the 22nd! Join us on Wednesdays at 3PM UTC',
   },
 };
 
