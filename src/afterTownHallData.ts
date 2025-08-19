@@ -22,12 +22,12 @@ const data = {
         'Join the Cardano Over Coffee crew on Twitter, supporting the community and newcomers to engage with Cardano and the Catalyst Ecosystem.',
     }, 
     {
-      name: 'ODIN Community',
-      time: 'Mondays at 18:00 UTC',
+      name: 'ODIN Weekly Community Meeting',
+      time: 'Mondays at 17:00-18:30 UTC',
       zoomLink:
         'https://meet.google.com/vnd-zdie-efs',
       description:
-        'Anyone interested in being part of an Open Decentralized Innovation Network is welcome to join us!',
+        'Weekly meeting, community generated agenda, come share what you are working on and learn how to collaborate with us.',
     },
     {
       name: 'Gimbalabs',
@@ -38,12 +38,12 @@ const data = {
         'Gimbalabs Playground every Tuesday, an open space for small groups to get together, learn + build in public.',
     },
     {
-      name: 'ODIN Sociocracy',
-      time: 'Tuesdays at 22:00 UTC',
+      name: 'ODIN Study Group Walk n Talk',
+      time: 'Tuesdays 21:00-22:00 UTC',
       zoomLink:
-        'https://meet.google.com/mrh-duur-rdw',
+        'https://meet.google.com/mzm-ouiz-bzd',
       description:
-        'Anyone interested in learning more about Sociocracy 3.0 principles and patterns is welcome to join us!',
+        'We walk and we talk. Walking not required, but encouraged. Talking not required, but encouraged.',
     },
     {
       name: '45b Open Hours',
@@ -69,11 +69,6 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Decentralizing the Potential for Human Collaboration',
-      host: 'Jeffrey and Lewis',
-      description: 'Let us talk about the impact of Project Catalyst proposals',
-    },
-    {
       name: 'Townhall Check-In',
       host: 'Lidonation',
       description:
@@ -97,7 +92,7 @@ const data = {
   },
   generalInfo: {
     date: 'August 2025',
-    upcomingEvent: 'Fund14 submissions due by the 18th! Join us on Wednesdays at 3PM UTC',
+    upcomingEvent: 'Fund14 Community reviews start on the 22nd! Join us on Wednesdays at 3PM UTC',
   },
 };
 
