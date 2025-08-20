@@ -6,7 +6,7 @@ const TownhallCards = () => {
       {data.townhalls.map((townhall, index) => (
         <div
           key={index}
-          className="relative text-center bg-opacity-10 backdrop-blur-md shadow-lg border border-opacity-20 rounded-lg flex flex-col justify-between aspect-square overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-105"
+          className="relative text-center bg-opacity-10 backdrop-blur-md shadow-lg border border-opacity-20 rounded-lg flex flex-col justify-between aspect-square overflow-hidden transition-all duration-300 ease-in-out"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
