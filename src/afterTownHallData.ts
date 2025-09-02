@@ -69,10 +69,10 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Townhall Check-In',
+      name: 'Townhall Check-In will return!',
       host: 'Lidonation',
       description:
-        "Check-in for today's Townhall and build your secure Cardano online reputation. Stop by this breakout room and quickly scan the QR code with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
+        "Currently Check-in for today's Townhall is not available. Check back to build your secure Cardano online reputation. Stop by this breakout room and quickly scan the QR code with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
     },
     {
       name: 'Sala de café',
@@ -91,8 +91,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 13:00 UTC.',
   },
   generalInfo: {
-    date: 'August 2025',
-    upcomingEvent: 'Fund14 Community reviews start on the 22nd! Join us on Wednesdays at 3PM UTC',
+    date: 'September 2025',
+    upcomingEvent: 'Fund14 Voting begins start on the 22nd! Join us for Townhalls to learn more on Wednesdays at 3PM UTC',
   },
 };
 
