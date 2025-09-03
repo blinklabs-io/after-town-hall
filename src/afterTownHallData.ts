@@ -69,6 +69,12 @@ const data = {
   ],
   breakoutRooms: [
     {
+      name: 'Gimbalabs F14 Proposal review',
+      host: 'James Dunesith',
+      description:
+        "Join James from Gimbalabs as he reviews the Fund 14 proposals they have submitted! Ask questions and give real time feedback.",
+    },
+    {
       name: 'Townhall Check-In will return!',
       host: 'Lidonation',
       description:
