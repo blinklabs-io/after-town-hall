@@ -69,16 +69,10 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Gimbalabs F14 Proposal review',
-      host: 'James Dunesith',
-      description:
-        "Join James from Gimbalabs as he reviews the Fund 14 proposals they have submitted! Ask questions and give real time feedback.",
-    },
-    {
       name: 'Townhall Check-In will return!',
       host: 'Lidonation',
       description:
-        "Currently Check-in for today's Townhall is not available. Check back to build your secure Cardano online reputation. Stop by this breakout room and quickly scan the QR code with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
+        "Currently Check-in for today's Townhall is not available. Check back to build your secure Cardano online reputation in this breakout room to quickly scan the QR code with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
     },
     {
       name: 'Sala de café',
