@@ -41,7 +41,7 @@ const data = {
       time: 'Thursdays 14:30-16:00 UTC',
       link: 'https://us06web.zoom.us/meeting/register/-RJdfipITwuUDtXDxUmBtw',
       description:
-        'Register and join Gimbalabs' open governance space. Whether you are new to the community or a seasoned community member, you are all welcome to play a part in deciding the future of Gimbalabs.',
+        'Register and join Gimbalabs open governance space. Whether you are new to the community or a seasoned community member, you are all welcome to play a part in deciding the future of Gimbalabs.',
     },
     {
       name: 'Wada Forum',
