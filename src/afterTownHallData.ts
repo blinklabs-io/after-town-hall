@@ -67,19 +67,19 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Reafino - Catalyst proposals',
-      host: 'Reafino',
-      description: 'Explore Reafino, a RealFi platform on Cardano. Learn about our Catalyst proposals for SmartStarter audit+mainnet launch, SmartPlay on chain games, and open sourcing contracts for the developer ecosystem.',
+      name: 'Grassroots Cardano NBO',
+      host: 'Herine Omollo + Tabitha Ongachi',
+      description: 'Cardano community outreach',
     },
     {
-      name: 'How Cardano can benefit from predictions markets',
-      host: 'John Maylam',
-      description: 'Explore how prediction markets, gaining global attention post-Polymarket, can thrive on Cardano. Join our Playrz breakout for insights and interactive discussions on blockchain gamings future.',
+      name: 'Vaulti - 2FA for the Cardano Ecosystem',
+      host: 'Antony Agrios',
+      description: 'Vaulti is A Two-Factor Authentication (2FA) system, with a 3 simple step way process, for users to protect their assets',
     },
         {
-      name: 'Unblocking Builders',
-      host: 'Peter Wolcott',
-      description: 'Relationships in Milestone Based Funding',
+      name: 'Catalyst Explorer 2.0',
+      host: 'Darlington Wleh',
+      description: 'On-Chain funding data feature on catalyexplorer.com and user stories for Catalyst Profiles.',
     },
     {
       name: 'Townhall Check-In will return!',
@@ -105,7 +105,7 @@ const data = {
   },
   generalInfo: {
     date: 'September 2025',
-    upcomingEvent: 'Fund14 Voting started on the 22nd until Oct 6th! Join us for Townhalls to learn more on Wednesdays at 3PM UTC',
+    upcomingEvent: 'Fund14 Voting started on the 22nd, running until Oct 6th! Join us on Wednesdays at 3PM UTC to learn more!',
   },
 };
 
