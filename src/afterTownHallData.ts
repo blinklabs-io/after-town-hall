@@ -1,76 +1,47 @@
 const data = {
   townhalls: [
     {
-      name: 'Eastern Townhall',
-      time: 'Each 1st Thursday (until Dec) - 09:00 UTC',
-      zoomLink:
-        'https://us02web.zoom.us/meeting/register/tZcqcOCopjsuGNd0IAZPoGfYNEYCXO_prtEd#/registration',
-    },
-    {
-      name: 'Latam Townhall',
-      time: 'Bi-weekly on Thursday - 21:30 UTC',
-      zoomLink:
-        'https://us02web.zoom.us/meeting/register/tZUucO2sqTktHdylwPNgHel_oh_skTNxZpHN#/registration',
-    },
-    {
       name: 'Europe Townhall',
       time: 'Each 2nd Thursday - 17:30 UTC',
       zoomLink:
-        'https://us06web.zoom.us/meeting/register/tZ0vcOmvrTgrHdCNi3AMKn-bnSroZV50eDCE#/registration',
+        'https://us06web.zoom.us/j/86885329886?pwd=K1iHnvEeTm4YNECQszhkqN1jIKQmuM.1',
     },
     {
       name: 'Africa Townhall',
       time: 'Each 2nd Friday - 18:00 UTC',
       zoomLink:
-        'https://us02web.zoom.us/meeting/register/tZMvd-6gqjgqG91WwnmZlHuAbkolJsBPsUD6?_x_zm_rtaid=vzqpwtyzSoisRsU_-e_EVA.1692735851090.5c6b3798b99a6c6dcd9dcb9428660bc2&_x_zm_rhtaid=813#/registration',
+        'https://us05web.zoom.us/meeting/register/sVfe4cUTSJ2IlJxw3AFY2w#/registration',
     },
   ],
   communityEvents: [
     {
       name: 'Cardano Over Coffee',
       time: 'Weekdays 3:30 UTC',
-      link: 'https://twitter.com/LidoNation',
+      link: 'https://x.com/coc_space',
       description:
         'Join the Cardano Over Coffee crew on Twitter, supporting the community and newcomers to engage with Cardano and the Catalyst Ecosystem.',
     }, 
     {
-      name: 'ODIN Community',
-      time: 'Mondays at 18:00 UTC',
+      name: 'ODIN Monthly Community Meeting',
+      time: 'Mondays at 17:00 UTC',
       zoomLink:
         'https://meet.google.com/vnd-zdie-efs',
       description:
-        'Anyone interested in being part of an Open Decentralized Innovation Network is welcome to join us!',
+        'The main agenda is to share updates from your network and to onboard new members to ODIN activities. The community generates the rest of the schedule.',
     },
     {
-      name: 'Gimbalabs',
-      time: 'Tuesdays 18:00 UTC',
-      zoomLink:
-        'https://us06web.zoom.us/j/81307648064?pwd=xVntZg38IJPQ8GvD9ZbEY3zaOLIz4s.1',
+      name: 'Cardano Governance Workshops',
+      time: 'Tuesdays 19:00 UTC and Wednesdays 01:00 UTC',
+      link: 'https://luma.com/calendar/cal-3bHLzrUZ6EMPb0U',
       description:
-        'Gimbalabs Playground every Tuesday, an open space for small groups to get together, learn + build in public.',
+        'Hands-on governance workshops, learn to build and operate your own truly self-custodial environment to interact directly with the Cardano mainnet.',
     },
     {
-      name: 'ODIN Sociocracy',
-      time: 'Tuesdays at 22:00 UTC',
-      zoomLink:
-        'https://meet.google.com/mrh-duur-rdw',
+      name: 'Gimbalabs Season 6 - Open Spaces',
+      time: 'Thursdays 14:30-16:00 UTC',
+      link: 'https://us06web.zoom.us/meeting/register/-RJdfipITwuUDtXDxUmBtw',
       description:
-        'Anyone interested in learning more about Sociocracy 3.0 principles and patterns is welcome to join us!',
-    },
-    {
-      name: 'NFT Guild',
-      time: 'Every other Tuesday 3PM UTC',
-      zoomLink:
-        'https://us02web.zoom.us/meeting/register/tZElfu2srzssGNw7jfgpQMdPAA-XJm7L9gKZ#/registration',
-      description:
-        'An open-format where the community is invited to discuss current topics in the Cardano NFT ecosystem, receive guidance and tips from community veterans.',
-    },
-    {
-      name: '45b Open Hours',
-      time: 'Wednesdays at 3pm UTC',
-      link: 'https://lu.ma/45B-Open-hours',
-      description:
-        'Join us for hands-on, non-technical, web3 end user onboarding!',
+        'Register and join Gimbalabs open governance space. Whether you are new to the community or a seasoned community member, you are all welcome to play a part in deciding the future of Gimbalabs.',
     },
     {
       name: 'Wada Forum',
@@ -80,39 +51,41 @@ const data = {
       description: "Wada's Web3 Africa weekly. Join us!",
     },
     {
-      name: 'Intersect Town Halls',
-      time: '4th Thursdays 16:00 UTC',
-      zoomLink:
-        'https://bit.ly/46nPeKJ',
-      description:
-        'Intersect Town Halls and After Town Halls facilitated by Swarm.',
-    },
-    {
       name: 'Eu Cardano Community',
       time: 'Date & Time varies',
       link: 'https://twitter.com/EuCardano',
       description:
         'Join the Eu Cardano Community for language themed Twitter spaces! Stay up to date on Twitter! Missing your language? Talk to us and become a host.',
     },
+      {
+      name: '45b Open Hours',
+      time: 'Date & Time varies',
+      link: 'https://lu.ma/45B-Open-hours',
+      description:
+        'Check our calendar for the latest updates. Join us for hands-on, non-technical, web3 end user onboarding!',
+    },
   ],
   breakoutRooms: [
     {
-      name: 'Landano Mendix Plugin Demo & Review',
-      host: 'Aaron Moguin +	Dorus van der Kroft',
-      description:
-        "Mendix is a low-code dev platform. Landano is developing a Cardano Mendix plugin to open up creation of enterprise-grade applications on Cardano to a much wider community.",
+      name: 'Grassroots Cardano NBO',
+      host: 'Herine Omollo + Tabitha Ongachi',
+      description: 'Cardano community outreach',
     },
     {
-      name: 'Data-Driven Catalyst: data insights & recommendations',
-      host: 'Thomas Wedler + June Akra',
-      description:
-        "We want to give the community access to tools and data for insights and data visualization. How to improve Catalyst, increase funding success or detect manipulation?",
+      name: 'Vaulti - 2FA for the Cardano Ecosystem',
+      host: 'Antony Agrios',
+      description: 'Vaulti is A Two-Factor Authentication (2FA) system, with a 3 simple step way process, for users to protect their assets',
+    },
+        {
+      name: 'Catalyst Explorer 2.0',
+      host: 'Darlington Wleh',
+      description: 'On-Chain funding data feature on catalyexplorer.com and user stories for Catalyst Profiles.',
     },
     {
-      name: 'Townhall Check-In',
+      name: 'Townhall Check-In will return!',
       host: 'Lidonation',
       description:
-        "Check-in for today's Townhall and build your secure Cardano online reputation. Stop by this breakout room and quickly scan the QR code with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
+        "Currently Check-in for today's Townhall is not available. Check back to build your secure Cardano online reputation in this breakout room to quickly scan the QR code with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
     },
     {
       name: 'Sala de café',
@@ -122,17 +95,17 @@ const data = {
     {
       name: 'Open Rooms',
       host: 'Cardano Community',
-      description: '3 Extra rooms',
+      description: '3 Extra rooms, available to anyone who wants to continue a conversation from chat or talk more about anything Cardano',
     },
   ],
   hostYourRoom: {
     formLink: 'https://forms.gle/rQrrZSCVEyekF8sG9',
     description: 'Room Requests',
-    deadline: 'Breakout Room requests due by Tuesdays 18:00 UTC.',
+    deadline: 'Breakout Room requests due by Tuesdays 13:00 UTC.',
   },
   generalInfo: {
-    date: 'Wednesday December 18th, 2024',
-    upcomingEvent: 'Thank you Project Catalyst Community! This is the last Townhall this month/year! Jan 22nd & 29th will be F13 Retrospectives. Join us!',
+    date: 'September 2025',
+    upcomingEvent: 'Fund14 Voting started on the 22nd, running until Oct 6th! Join us on Wednesdays at 3PM UTC to learn more!',
   },
 };
 

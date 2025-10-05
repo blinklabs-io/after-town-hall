@@ -46,9 +46,9 @@ const NavBar: React.FC = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className="fixed w-full top-0 z-50 bg-white shadow-sm">
+    <header className="fixed w-full top-0 z-50 bg-white shadow-xs">
       <nav className="container mx-auto px-4 py-2 flex items-center justify-between">
-        <div className="flex items-center flex-shrink-0 mr-4">
+        <div className="flex items-center shrink-0 mr-4">
           <img
             src={catalysticon}
             alt="Catalyst Icon"
@@ -59,14 +59,14 @@ const NavBar: React.FC = () => {
           </span>
         </div>
 
-        <div className="hidden md:flex justify-center items-center space-x-4 flex-grow">
+        <div className="hidden md:flex justify-center items-center space-x-4 grow">
           <NavLink to="home">Home</NavLink>
           <NavLink to="global">Global</NavLink>
           <NavLink to="community">Community</NavLink>
           <NavLink to="breakout">Breakout</NavLink>
         </div>
 
-        <div className="hidden md:flex justify-end items-center space-x-4 flex-shrink-0">
+        <div className="hidden md:flex justify-end items-center space-x-4 shrink-0">
           <a
             href="https://discord.com/invite/r8Mb7xnyTf"
             target="_blank"
@@ -96,7 +96,7 @@ const NavBar: React.FC = () => {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="p-2 focus:outline-none cursor-pointer"
+            className="p-2 focus:outline-hidden cursor-pointer"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>

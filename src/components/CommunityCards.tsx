@@ -17,7 +17,7 @@ const CommunityCards = () => {
       {data.communityEvents.map((comm: CommunityEvent, index: number) => (
         <div
           key={index}
-          className="relative aspect-square  text-center bg-opacity-10 backdrop-blur-md shadow-lg border border-opacity-20 rounded-lg flex flex-col justify-between overflow-hidden transition-all duration-300 ease-in-out transform  hover:scale-105"
+          className="relative aspect-square  text-center bg-opacity-10 backdrop-blur-md shadow-lg border border-opacity-20 rounded-lg flex flex-col justify-between overflow-hidden transition-all duration-300 ease-in-out"
           onMouseEnter={() => setHoveredIndex(index)}
           onMouseLeave={() => setHoveredIndex(null)}
           style={{
