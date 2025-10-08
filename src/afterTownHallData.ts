@@ -67,21 +67,6 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Grassroots Cardano NBO',
-      host: 'Herine Omollo + Tabitha Ongachi',
-      description: 'Cardano community outreach',
-    },
-    {
-      name: 'Vaulti - 2FA for the Cardano Ecosystem',
-      host: 'Antony Agrios',
-      description: 'Vaulti is A Two-Factor Authentication (2FA) system, with a 3 simple step way process, for users to protect their assets',
-    },
-        {
-      name: 'Catalyst Explorer 2.0',
-      host: 'Darlington Wleh',
-      description: 'On-Chain funding data feature on catalyexplorer.com and user stories for Catalyst Profiles.',
-    },
-    {
       name: 'Townhall Check-In will return!',
       host: 'Lidonation',
       description:
