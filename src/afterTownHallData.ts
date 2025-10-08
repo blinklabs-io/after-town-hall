@@ -90,7 +90,7 @@ const data = {
   },
   generalInfo: {
     date: 'September 2025',
-    upcomingEvent: 'Fund14 Voting started on the 22nd, running until Oct 6th! Join us on Wednesdays at 3PM UTC to learn more!',
+    upcomingEvent: 'Fund14 Voting concluded Monday! Join us on Wednesdays at 3PM UTC to learn more!',
   },
 };
 
