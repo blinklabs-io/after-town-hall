@@ -67,10 +67,16 @@ const data = {
   ],
   breakoutRooms: [
     {
+      name: 'What to do when you were not funded?',
+      host: 'Christina Gianelloni',
+      description:
+        "Fund 14 was an unusual funding round in many regards. Lets talk as a community about the reality of not being funded and how best to move forward.",
+    },
+    {
       name: 'Townhall Check-In will return!',
       host: 'Lidonation',
       description:
-        "Currently Check-in for today's Townhall is not available. Check back to build your secure Cardano online reputation in this breakout room to quickly scan the QR code with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
+        "Currently Check-in for today's Townhall is not available. Check back to build your secure Cardano online reputation with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
     },
     {
       name: 'Sala de café',
@@ -89,8 +95,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 13:00 UTC.',
   },
   generalInfo: {
-    date: 'September 2025',
-    upcomingEvent: 'Fund14 Voting concluded Monday! Join us on Wednesdays at 3PM UTC to learn more!',
+    date: 'October 2025',
+    upcomingEvent: 'Fund14 Results are in, congrats to our funded projects! Join us on Wednesdays at 3PM UTC to learn more!',
   },
 };
 
