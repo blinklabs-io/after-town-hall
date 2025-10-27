@@ -27,7 +27,7 @@ const data = {
       zoomLink:
         'https://meet.google.com/vnd-zdie-efs',
       description:
-        'The main agenda is to share updates from your network and to onboard new members to ODIN activities. The community generates the rest of the schedule.',
+        'We believe that decentralized innovation networks will be the primary way we solve hard problems in the world. To that end, we will experiment with and mentor evolutionary organizational principles, and create ways to scale through connecting high-trust spaces so that innovation networks and their members can flourish.',
     },
     {
       name: 'Cardano Governance Workshops',
