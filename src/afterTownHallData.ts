@@ -27,7 +27,7 @@ const data = {
       zoomLink:
         'https://meet.google.com/vnd-zdie-efs',
       description:
-        'ODIN believes innovation thrives in open, connected networks. Our goal is to help these networks grow through collaboration, mentorship, and trust.',
+        'We believe innovation thrives in open, connected networks. Our goal is to help these networks grow through collaboration, education, and building trust.',
     },
     {
       name: 'Cardano Governance Workshops',
