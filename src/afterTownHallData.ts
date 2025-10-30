@@ -27,7 +27,7 @@ const data = {
       zoomLink:
         'https://meet.google.com/vnd-zdie-efs',
       description:
-        'We believe that decentralized innovation networks will be the primary way we solve hard problems in the world. To that end, we will experiment with and mentor evolutionary organizational principles, and create ways to scale through connecting high-trust spaces so that innovation networks and their members can flourish.',
+        'We believe innovation thrives in open, connected networks. Our goal is to help these networks grow through collaboration, education, and building trust.',
     },
     {
       name: 'Cardano Governance Workshops',
@@ -67,10 +67,10 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'What to do when you were not funded?',
-      host: 'Christina Gianelloni',
+      name: 'Cardano Smart AI assistant developer',
+      host: 'Sebastian Pereira',
       description:
-        "Fund 14 was an unusual funding round in many regards. Lets talk as a community about the reality of not being funded and how best to move forward.",
+        "Introducing an open source AI assistant for the Cardano ecosystem. It uses several open source models to help with Cardano development.",
     },
     {
       name: 'Townhall Check-In will return!',
@@ -96,7 +96,7 @@ const data = {
   },
   generalInfo: {
     date: 'October 2025',
-    upcomingEvent: 'Fund14 Results are in, congrats to our funded projects! Join us on Wednesdays at 3PM UTC to learn more!',
+    upcomingEvent: 'Fund15 starts next week! Join us on Wednesdays at 3PM UTC to learn more!',
   },
 };
 
