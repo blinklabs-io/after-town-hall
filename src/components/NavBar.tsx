@@ -32,6 +32,7 @@ const NavLink = ({
       to={to}
       smooth={true}
       duration={500}
+      offset={-80}
       className="block px-4 py-2 text-sm hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
       onClick={onClick}
     >
