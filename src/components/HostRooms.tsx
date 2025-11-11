@@ -12,11 +12,11 @@ const HostRoomCard = ({ br }: { br: BR }) => {
   const [showInfo, setShowInfo] = useState(false);
 
   return (
-    <div className="relative bg-white text-center shadow-lg border border-opacity-20 rounded-lg flex flex-col aspect-square overflow-hidden transform transition-transform duration-300 ease-in-out hover:scale-105">
+    <div className="relative text-center shadow-lg border border-opacity-20 rounded-lg flex flex-col aspect-square overflow-hidden transition-all duration-300 ease-in-out bg-white">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 640"
-        className="absolute -z-10 w-full"
+        className="absolute top-0 left-0 w-full z-0"
         preserveAspectRatio="none"
       >
         <path
@@ -26,7 +26,7 @@ const HostRoomCard = ({ br }: { br: BR }) => {
         ></path>
       </svg>
 
-      <div className="flex flex-col justify-between items-center h-full p-6">
+      <div className="relative z-10 flex flex-col justify-between items-center h-full p-6">
         <h2 className="text-white text-2xl phone:text-[16px] sm:text-md md:text-[16.5px] lg:text-lg xl:text-xl font-semibold">
           {br.name}
         </h2>
@@ -34,7 +34,7 @@ const HostRoomCard = ({ br }: { br: BR }) => {
           {br.host}
         </p>
         <button
-          className="text-black hover:text-gray-600 transition-colors flex items-center space-x-4"
+          className="text-black hover:text-gray-600 transition-colors flex items-center space-x-4 cursor-pointer"
           onClick={() => setShowInfo(!showInfo)}
         >
           <span>Learn More</span>
@@ -43,9 +43,9 @@ const HostRoomCard = ({ br }: { br: BR }) => {
       </div>
 
       {showInfo && (
-        <div className="absolute inset-0 bg-white flex flex-col justify-center p-6 overflow-auto">
+        <div className="absolute inset-0 bg-white flex flex-col justify-center p-6 overflow-auto z-20">
           <button
-            className="absolute top-2 right-2 text-black hover:text-gray-600 transition-colors"
+            className="absolute top-2 right-2 text-black hover:text-gray-600 transition-colors cursor-pointer"
             onClick={() => setShowInfo(false)}
           >
             <X size={24} />

@@ -1,6 +1,7 @@
 import Discord from './assets/discord.svg';
 import Youtube from './assets/youtube.svg';
 import X from './assets/x.svg';
+import GitHub from './assets/github.svg';
 
 const Final = () => {
   return (
@@ -75,6 +76,15 @@ const Final = () => {
             >
               <img src={X} alt="X (Twitter)" className="w-6 h-6" />
               <span>Twitter</span>
+            </a>
+            <a
+              href="https://github.com/blinklabs-io/after-town-hall"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              <img src={GitHub} alt="GitHub" className="w-6 h-6" />
+              <span>GitHub</span>
             </a>
           </div>
         </div>
