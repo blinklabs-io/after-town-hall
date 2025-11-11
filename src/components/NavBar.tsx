@@ -48,7 +48,7 @@ const NavBar: React.FC = () => {
 
   return (
     <header className="fixed w-full top-0 z-50 bg-white shadow-xs">
-      <nav className="container mx-auto px-4 py-2 flex items-center justify-between">
+      <nav className="w-full pl-16 pr-16 py-2 flex items-center justify-between">
         <div className="flex items-center shrink-0 mr-4">
           <img
             src={catalysticon}
