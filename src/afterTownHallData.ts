@@ -22,35 +22,26 @@ const data = {
         'Join the Cardano Over Coffee crew on Twitter, supporting the community and newcomers to engage with Cardano and the Catalyst Ecosystem.',
     }, 
     {
-      name: 'ODIN Weekly Community Meeting',
-      time: 'Mondays at 17:00-18:30 UTC',
+      name: 'ODIN Monthly Community Meeting',
+      time: 'Mondays at 17:00 UTC',
       zoomLink:
         'https://meet.google.com/vnd-zdie-efs',
       description:
-        'Weekly meeting, community generated agenda, come share what you are working on and learn how to collaborate with us.',
+        'We believe innovation thrives in open, connected networks. Our goal is to help these networks grow through collaboration, education, and building trust.',
     },
     {
-      name: 'Gimbalabs',
-      time: 'Tuesdays 18:00 UTC',
-      zoomLink:
-        'https://us06web.zoom.us/meeting/register/tZIkdOihpj4vHt3w5k_fqLDVCh65IwVeYAM1',
+      name: 'Cardano Governance Workshops',
+      time: 'Tuesdays 19:00 UTC and Wednesdays 01:00 UTC',
+      link: 'https://luma.com/calendar/cal-3bHLzrUZ6EMPb0U',
       description:
-        'Gimbalabs Playground every Tuesday, an open space for small groups to get together, learn + build in public.',
+        'Hands-on governance workshops, learn to build and operate your own truly self-custodial environment to interact directly with the Cardano mainnet.',
     },
     {
-      name: 'ODIN Study Group Walk n Talk',
-      time: 'Tuesdays 21:00-22:00 UTC',
-      zoomLink:
-        'https://meet.google.com/mzm-ouiz-bzd',
+      name: 'Gimbalabs Season 6 - Open Spaces',
+      time: 'Thursdays 14:30-16:00 UTC',
+      link: 'https://us06web.zoom.us/meeting/register/-RJdfipITwuUDtXDxUmBtw',
       description:
-        'We walk and we talk. Walking not required, but encouraged. Talking not required, but encouraged.',
-    },
-    {
-      name: '45b Open Hours',
-      time: 'Date & Time varies',
-      link: 'https://lu.ma/45B-Open-hours',
-      description:
-        'Check our calendar for the latest updates. Join us for hands-on, non-technical, web3 end user onboarding!',
+        'Register and join Gimbalabs open governance space. Whether you are new to the community or a seasoned community member, you are all welcome to play a part in deciding the future of Gimbalabs.',
     },
     {
       name: 'Wada Forum',
@@ -66,13 +57,26 @@ const data = {
       description:
         'Join the Eu Cardano Community for language themed Twitter spaces! Stay up to date on Twitter! Missing your language? Talk to us and become a host.',
     },
+      {
+      name: '45b Open Hours',
+      time: 'Date & Time varies',
+      link: 'https://lu.ma/45B-Open-hours',
+      description:
+        'Check our calendar for the latest updates. Join us for hands-on, non-technical, web3 end user onboarding!',
+    },
   ],
   breakoutRooms: [
     {
-      name: 'Townhall Check-In',
+      name: 'Cardano Smart AI assistant for documentation',
+      host: 'Sebastian Pereira',
+      description:
+        "A open-source bot that tracks Cardano documentation automatically.",
+    },
+    {
+      name: 'Townhall Check-In will return!',
       host: 'Lidonation',
       description:
-        "Check-in for today's Townhall and build your secure Cardano online reputation. Stop by this breakout room and quickly scan the QR code with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
+        "Currently Check-in for today's Townhall is not available. Check back to build your secure Cardano online reputation with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
     },
     {
       name: 'Sala de café',
@@ -91,8 +95,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 13:00 UTC.',
   },
   generalInfo: {
-    date: 'August 2025',
-    upcomingEvent: 'Fund14 Community reviews start on the 22nd! Join us on Wednesdays at 3PM UTC',
+    date: 'November 2025',
+    upcomingEvent: 'Fund15 starts this month! Join us on Wednesdays at 3PM UTC to learn more!',
   },
 };
 

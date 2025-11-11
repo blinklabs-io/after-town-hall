@@ -2,12 +2,11 @@ import data from '../afterTownHallData';
 
 const BreakOutRoomForm = () => {
   return (
-    <div className="relative text-center shadow-lg border border-opacity-20 rounded-lg flex flex-col aspect-square overflow-hidden transition-all duration-300 ease-in-out bg-white">
+    <div className="relative aspect-square text-center bg-opacity-10 backdrop-blur-md shadow-lg border border-opacity-20 rounded-lg flex flex-col justify-between overflow-hidden transition-all duration-300 ease-in-out">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1440 640"
-        className="absolute top-0 left-0 w-full z-0"
-        preserveAspectRatio="none"
+        className="absolute -z-40 w-full"
       >
         <path
           fill="#6155D8"
@@ -16,18 +15,18 @@ const BreakOutRoomForm = () => {
         ></path>
       </svg>
 
-      <div className="relative z-10 flex flex-col justify-between items-center h-full p-6 ">
-        <h2 className="text-white text-2xl phone:text-[16px] sm:text-md md:text-md lg:text-lg xl:text-lg font-semibold">
+      <div className="flex flex-col justify-between p-8 h-full">
+        <h2 className="text-white text-2xl phone:text-[16px] sm:text-md md:text-md lg:text-lg xl:text-lg font-semibold mb-8">
           {data.hostYourRoom.description}
         </h2>
-        <p className="text-black text-lg font-bold text-opacity-80 mt-20">
+        <p className="text-black text-lg font-bold text-opacity-80 mb-4">
           {data.hostYourRoom.deadline}
         </p>
         <a
           href={data.hostYourRoom.formLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 underline p-6 hover:text-blue-300 transition-colors duration-300"
+          className="text-blue-400 underline hover:text-blue-300 transition-colors duration-300"
         >
           Form Link Here
         </a>
