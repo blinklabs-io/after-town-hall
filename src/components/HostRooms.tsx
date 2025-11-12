@@ -53,7 +53,7 @@ const HostRooms = () => {
 
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
         {data.breakoutRooms.map((br, index) => (
           <HostRoomCard 
             key={index} 
