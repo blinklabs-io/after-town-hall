@@ -67,12 +67,6 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Cardano Smart AI assistant for documentation',
-      host: 'Sebastian Pereira',
-      description:
-        "A open-source bot that tracks Cardano documentation automatically.",
-    },
-    {
       name: 'Townhall Check-In will return!',
       host: 'Lidonation',
       description:
@@ -96,7 +90,7 @@ const data = {
   },
   generalInfo: {
     date: 'November 2025',
-    upcomingEvent: 'Fund15 starts this month! Join us on Wednesdays at 3PM UTC to learn more!',
+    upcomingEvent: 'Fund15 has begun! Join us on Wednesdays at 3PM UTC to learn more!',
   },
 };
 
