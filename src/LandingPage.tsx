@@ -126,6 +126,7 @@ const LandingPage = () => {
         to="global"
         smooth={true}
         duration={500}
+        offset={-80}
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2 cursor-pointer"
       >
         <motion.div animate={scrollAnimation}>
