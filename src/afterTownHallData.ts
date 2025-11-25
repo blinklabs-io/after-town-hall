@@ -67,6 +67,12 @@ const data = {
   ],
   breakoutRooms: [
     {
+      name: 'Fund 15 Q&A',
+      host: 'After Townhall team',
+      description:
+        "With all the new changes, do you have questions about Fund 15?",
+    },
+    {
       name: 'Townhall Check-In will return!',
       host: 'Lidonation',
       description:
