@@ -43,6 +43,17 @@ const Final = () => {
               Licensed under Apache License, 2.0
             </a>
           </div>
+
+          <div className="mt-2">
+            <a
+              href="https://github.com/blinklabs-io/after-town-hall"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#1DA1F2] phone:text-[15px]"
+            >
+              Contribute content to this page on GitHub →
+            </a>
+          </div>
         </div>
         <div>
           <h3 className="text-3xl font-semibold mb-4 phone:text-[20px]">
