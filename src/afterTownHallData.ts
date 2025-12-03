@@ -95,7 +95,7 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 13:00 UTC.',
   },
   generalInfo: {
-    date: 'November 2025',
+    date: 'December 2025',
     upcomingEvent: 'Fund15 has begun! Join us on Wednesdays at 3PM UTC to learn more!',
   },
 };
