@@ -11,7 +11,6 @@ const LandingPage = () => {
       y: 0,
       opacity: 1,
       transition: {
-        type: 'spring',
         damping: 20,
         stiffness: 30,
         duration: 2,
@@ -26,7 +25,6 @@ const LandingPage = () => {
       y: 0,
       opacity: 1,
       transition: {
-        type: 'spring',
         damping: 20,
         stiffness: 30,
         duration: 2,
@@ -41,7 +39,6 @@ const LandingPage = () => {
       scale: [1, 1.01, 1],
       transition: {
         duration: 1.5,
-        ease: 'easeInOut',
         times: [0, 0.5, 1],
         repeat: Infinity,
         repeatDelay: 1,
@@ -55,7 +52,6 @@ const LandingPage = () => {
       y: 0,
       opacity: 1,
       transition: {
-        type: 'spring',
         damping: 20,
         stiffness: 30,
         duration: 2,
@@ -70,7 +66,6 @@ const LandingPage = () => {
       y: {
         repeat: Infinity,
         duration: 1.5,
-        ease: 'easeInOut',
       },
     },
   };
