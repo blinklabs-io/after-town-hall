@@ -70,13 +70,7 @@ const data = {
       name: 'Fund 15 Q&A',
       host: 'After Townhall team',
       description:
-        "With all the new changes, do you have questions about Fund 15?",
-    },
-    {
-      name: 'Townhall Check-In will return!',
-      host: 'Lidonation',
-      description:
-        "Currently Check-in for today's Townhall is not available. Check back to build your secure Cardano online reputation with the ProofSpace app. Receive a Verifiable Credential attesting to your attendance, without sharing any personal information. Sponsored by Lido Nation.",
+        "Do you have questions about Fund 15 or about how to share your proposal?",
     },
     {
       name: 'Sala de café',
@@ -96,7 +90,7 @@ const data = {
   },
   generalInfo: {
     date: 'December 2025',
-    upcomingEvent: 'Fund15 has begun! Join us on Wednesdays at 3PM UTC to learn more!',
+    upcomingEvent: 'Fund15 has begun and voting starts in January! Join us on Wednesdays at 3PM UTC to learn more!',
   },
 };
 
