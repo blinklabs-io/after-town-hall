@@ -89,8 +89,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 13:00 UTC.',
   },
   generalInfo: {
-    date: 'December 2025',
-    upcomingEvent: 'Fund15 has begun and voting starts in January! Join us on Wednesdays at 3PM UTC to learn more!',
+    date: 'January 2025',
+    upcomingEvent: 'Fund15 voting starts in January! Our Townhall & After Townhall return on January 14th',
   },
 };
 
