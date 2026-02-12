@@ -89,8 +89,8 @@ const data = {
     deadline: 'Breakout Room requests due by Tuesdays 13:00 UTC.',
   },
   generalInfo: {
-    date: 'January 2025',
-    upcomingEvent: 'Fund15 voting starts in January! Our Townhall & After Townhall return on January 14th',
+    date: 'February 2026',
+    upcomingEvent: 'Fund15 has been paused. We at the ATH have no further updates but will share when we do.',
   },
 };
 
