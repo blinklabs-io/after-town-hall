@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import data from '../afterTownHallData';
+import { ArrowRight, Calendar } from 'lucide-react';
 
 interface CommunityEvent {
   name: string;
@@ -10,55 +10,34 @@ interface CommunityEvent {
 }
 
 const CommunityCards = () => {
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
-
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 3xl:grid-cols-4 gap-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
       {data.communityEvents.map((comm: CommunityEvent, index: number) => (
         <div
           key={index}
-          className="relative aspect-square  text-center bg-opacity-10 backdrop-blur-md shadow-lg border border-opacity-20 rounded-lg flex flex-col justify-between overflow-hidden transition-all duration-300 ease-in-out"
-          onMouseEnter={() => setHoveredIndex(index)}
-          onMouseLeave={() => setHoveredIndex(null)}
-          style={{
-            opacity: hoveredIndex === index ? 1 : 0.8,
-          }}
+          className="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:border-sky-300 hover:shadow-md transition-all duration-300 flex flex-col"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1440 640"
-            className="absolute -z-40 w-full"
-          >
-            <path
-              fill="#0047AB"
-              fillOpacity="1"
-              d="M0,320L0,320L120,373C240,427,480,533,720,550C960,567,1200,493,1320,456L1440,420L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
-            ></path>
-          </svg>
-          <div className="flex flex-col justify-between p-8 h-full">
-            <h2 className="text-white text-2xl phone:text-[16px] sm:text-md md:text-[16.5px] lg:text-lg xl:text-xl font-semibold mb-8">
+          <div className="h-1 bg-sky-600" />
+          <div className="p-5 flex flex-col flex-grow">
+            <h3 className="text-base font-semibold text-slate-900 mb-1">
               {comm.name}
-            </h2>
-
-            <p className="text-black text-lg font-bold text-opacity-80 mb-4">
-              Global : {comm.time}
+            </h3>
+            <div className="flex items-center gap-1.5 text-xs text-slate-500 mb-3">
+              <Calendar size={12} />
+              <span>{comm.time}</span>
+            </div>
+            <p className="text-sm text-slate-600 leading-relaxed mb-4 flex-grow">
+              {comm.description}
             </p>
             <a
               href={comm.zoomLink || comm.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 underline z-50"
+              className="inline-flex items-center gap-1.5 px-4 py-2 bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors text-sm font-medium self-start"
             >
-              {comm.zoomLink ? 'Register Here →' : 'Join Here →'}
+              {comm.zoomLink ? 'Register' : 'Join'}
+              <ArrowRight size={14} />
             </a>
-          </div>
-          <div
-            className={`absolute inset-0 bg-white  flex items-center justify-center p-4 transition-opacity duration-300 ${
-              hoveredIndex === index ? 'opacity-100' : 'opacity-0'
-            }`}
-            style={{ pointerEvents: hoveredIndex === index ? 'auto' : 'none' }}
-          >
-            <p className="text-black text-lg p-6">{comm.description}</p>
           </div>
         </div>
       ))}
