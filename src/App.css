@@ -4,7 +4,7 @@
   --text-8_5xl: 7rem;
   --text-8_5xl--line-height: 1;
 
-  --font-custom: Lato, sans-serif;
+  --font-custom: Figtree, system-ui, sans-serif;
 
   --breakpoint-phone: 430px;
   --breakpoint-md: 810px;
@@ -12,14 +12,6 @@
   --breakpoint-3xl: 1550px;
 }
 
-/*
-  The default border color has changed to `currentcolor` in Tailwind CSS v4,
-  so we've added these compatibility styles to make sure everything still
-  looks the same as it did with Tailwind CSS v3.
-
-  If we ever want to remove these styles, we need to add an explicit border
-  color utility to any element that depends on these defaults.
-*/
 @layer base {
   *,
   ::after,
@@ -35,13 +27,10 @@ body,
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* or any other light color that fits your design */
+  background-color: #ffffff;
 }
 
 .gradient-background {
-  background-color: #8ec5fc;
-  background-image: linear-gradient(62deg, #8ec5fc 0%, #ffffff 100%);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(145deg, #dbeafe 0%, #e0f2fe 30%, #f0f9ff 60%, #ffffff 100%);
   background-attachment: fixed;
 }

@@ -7,22 +7,19 @@ interface Banner {
 
 const SimpleBanner = ({ date, message }: Banner) => {
   return (
-    <div className="py-1 text-black w-full ">
-      <motion.div
-        className="flex flex-col pl-16 text-sm justify-start sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold  w-full"
-        initial={{ x: '100%' }}
-        animate={{ x: 0 }}
-        transition={{
-          type: 'spring',
-          damping: 20,
-          stiffness: 50,
-          duration: 6,
-        }}
-      >
-        <span className="mb-8">{date}</span>
-        <span className="leading-relaxed whitespace-pre-line">{message}</span>
-      </motion.div>
-    </div>
+    <motion.div
+      className="flex flex-col gap-1"
+      initial={{ opacity: 0, x: 20 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.6, delay: 0.7, ease: 'easeOut' }}
+    >
+      <span className="text-xs sm:text-sm uppercase tracking-wide font-medium text-slate-400">
+        {date}
+      </span>
+      <span className="text-sm sm:text-base md:text-lg leading-relaxed text-slate-600">
+        {message}
+      </span>
+    </motion.div>
   );
 };
 

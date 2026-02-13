@@ -1,34 +1,33 @@
 import data from '../afterTownHallData';
+import { ArrowRight, PlusCircle } from 'lucide-react';
 
 const BreakOutRoomForm = () => {
   return (
-    <div className="relative aspect-square text-center bg-opacity-10 backdrop-blur-md shadow-lg border border-opacity-20 rounded-lg flex flex-col justify-between overflow-hidden transition-all duration-300 ease-in-out">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1440 640"
-        className="absolute -z-40 w-full"
-      >
-        <path
-          fill="#6155D8"
-          fillOpacity="1"
-          d="M0,320L0,320L120,373C240,427,480,533,720,550C960,567,1200,493,1320,456L1440,420L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"
-        ></path>
-      </svg>
-
-      <div className="flex flex-col justify-between p-8 h-full">
-        <h2 className="text-white text-2xl phone:text-[16px] sm:text-md md:text-md lg:text-lg xl:text-lg font-semibold mb-8">
-          {data.hostYourRoom.description}
-        </h2>
-        <p className="text-black text-lg font-bold text-opacity-80 mb-4">
-          {data.hostYourRoom.deadline}
-        </p>
+    <div className="group bg-white rounded-xl border border-dashed border-violet-300 overflow-hidden hover:border-violet-400 hover:shadow-md transition-all duration-300 flex flex-col">
+      <div className="h-1 bg-violet-600" />
+      <div className="p-5 flex flex-col flex-grow">
+        <div className="flex items-start gap-3 mb-3">
+          <div className="p-2 bg-violet-50 rounded-lg shrink-0">
+            <PlusCircle size={18} className="text-violet-600" />
+          </div>
+          <div>
+            <h3 className="text-base font-semibold text-slate-900">
+              {data.hostYourRoom.description}
+            </h3>
+            <p className="text-xs text-slate-500 mt-1">
+              {data.hostYourRoom.deadline}
+            </p>
+          </div>
+        </div>
+        <div className="flex-grow" />
         <a
           href={data.hostYourRoom.formLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-blue-400 underline hover:text-blue-300 transition-colors duration-300"
+          className="inline-flex items-center gap-1.5 px-4 py-2 bg-violet-600 text-white rounded-lg hover:bg-violet-700 transition-colors text-sm font-medium self-start"
         >
-          Form Link Here
+          Request a Room
+          <ArrowRight size={14} />
         </a>
       </div>
     </div>

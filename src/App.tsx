@@ -9,7 +9,9 @@ function App() {
   return (
     <>
       <title>ATH | BlinkLabs</title>
-      <meta name="description" content="Join Project Catalyst's After Townhall discussions on blockchain innovation and Cardano ecosystem."
+      <meta
+        name="description"
+        content="Join Project Catalyst's After Townhall discussions on blockchain innovation and Cardano ecosystem."
       />
       <link rel="canonical" href="https://ath.blinklabs.io/" />
 
@@ -23,10 +25,10 @@ function App() {
           </div>
         </div>
         <Rooms />
-        <div className="flex items-center justify-center w-full mt-10">
-          <div className="w-full h-px bg-gray-400 flex-grow" />
-          <img className="px-4 text-gray-500 w-64" src={Logo} alt="Logo" />
-          <div className="w-full h-px bg-gray-400 flex-grow" />
+        <div className="flex items-center justify-center w-full py-8 px-8">
+          <div className="w-full h-px bg-slate-200 flex-grow" />
+          <img className="px-6 w-48 opacity-40" src={Logo} alt="Logo" />
+          <div className="w-full h-px bg-slate-200 flex-grow" />
         </div>
         <Final />
       </div>
