@@ -14,7 +14,7 @@ const LandingPage = () => {
       transition: {
         duration: 0.7,
         delay,
-        ease: [0.25, 0.4, 0.25, 1],
+        ease: [0.25, 0.4, 0.25, 1] as const,
       },
     },
   });
@@ -33,7 +33,7 @@ const LandingPage = () => {
       y: {
         repeat: Infinity,
         duration: 2,
-        ease: 'easeInOut',
+        ease: 'easeInOut' as const,
       },
     },
   };
