@@ -15,7 +15,7 @@ const CommunityCards = () => {
       {data.communityEvents.map((comm: CommunityEvent, index: number) => (
         <div
           key={index}
-          className="group bg-white rounded-xl border border-slate-200 overflow-hidden hover:border-sky-300 hover:shadow-md transition-all duration-300 flex flex-col"
+          className="group bg-white rounded-xl border border-slate-200 overflow-hidden flex flex-col"
         >
           <div className="h-1 bg-sky-600" />
           <div className="p-5 flex flex-col flex-grow">
