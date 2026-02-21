@@ -3,41 +3,55 @@ import HostRooms from './components/HostRooms';
 import TownhallCards from './components/TownhallCards';
 import { Element } from 'react-scroll';
 
-const Divider = () => (
-  <div className="mt-40">
-    <div className="border-t border-gray-600"></div>
+const SectionHeading = ({
+  title,
+  subtitle,
+}: {
+  title: string;
+  subtitle: string;
+}) => (
+  <div className="mb-8">
+    <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-2">
+      {title}
+    </h2>
+    <p className="text-slate-500 text-sm sm:text-base">{subtitle}</p>
   </div>
 );
 
 const Rooms = () => {
   return (
     <Element name="home" className="element">
-      <div className="min-h-screen w-full flex-col justify-start p-20 bg-white">
+      <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 py-16">
         <Element name="global" className="element">
-          <section className="space-y-4">
-            <h2 className="text-black text-4xl mt-20 mb-10">
-              Global Townhalls
-            </h2>
+          <section className="pt-8 pb-16">
+            <SectionHeading
+              title="Global Townhalls"
+              subtitle="Join the official Catalyst townhall sessions around the world"
+            />
             <TownhallCards />
           </section>
         </Element>
 
-        <Divider />
+        <div className="border-t border-slate-200" />
 
         <Element name="community" className="element">
-          <section className="space-y-4">
-            <h2 className="text-black text-4xl mt-40 mb-10">
-              Community Events
-            </h2>
+          <section className="pt-16 pb-16">
+            <SectionHeading
+              title="Community Events"
+              subtitle="Recurring events and discussions hosted by community members"
+            />
             <CommunityCards />
           </section>
         </Element>
 
-        <Divider />
+        <div className="border-t border-slate-200" />
 
         <Element name="breakout" className="element">
-          <section className="space-y-4">
-            <h2 className="text-black text-4xl mt-40 mb-10">Breakout Rooms </h2>
+          <section className="pt-16 pb-16">
+            <SectionHeading
+              title="Breakout Rooms"
+              subtitle="Discussion rooms open during After Townhall sessions"
+            />
             <HostRooms />
           </section>
         </Element>
