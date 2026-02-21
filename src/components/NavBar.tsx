@@ -159,6 +159,8 @@ const NavBar: React.FC = () => {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
+            aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={isMenuOpen}
             className="p-2 text-slate-500 hover:text-slate-900 focus:outline-hidden cursor-pointer rounded-lg hover:bg-slate-100 transition-colors"
           >
             {isMenuOpen ? <X size={20} /> : <Menu size={20} />}
