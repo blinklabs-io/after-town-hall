@@ -29,15 +29,17 @@ const CommunityCards = () => {
             <p className="text-sm text-slate-600 leading-relaxed mb-4 flex-grow">
               {comm.description}
             </p>
-            <a
-              href={comm.zoomLink || comm.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-4 py-2 bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors text-sm font-medium self-start"
-            >
-              {comm.zoomLink ? 'Register' : 'Join'}
-              <ArrowRight size={14} />
-            </a>
+            {(comm.zoomLink || comm.link) && (
+              <a
+                href={comm.zoomLink || comm.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 px-4 py-2 bg-sky-600 text-white rounded-lg hover:bg-sky-700 transition-colors text-sm font-medium self-start"
+              >
+                {comm.zoomLink ? 'Register' : 'Join'}
+                <ArrowRight size={14} />
+              </a>
+            )}
           </div>
         </div>
       ))}

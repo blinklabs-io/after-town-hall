@@ -141,6 +141,7 @@ const LandingPage = () => {
                 to={item.to}
                 smooth={true}
                 duration={500}
+                offset={-70}
                 className="group flex items-center gap-3 px-4 py-3 bg-white/60 backdrop-blur-sm border border-white/80 rounded-xl cursor-pointer hover:bg-white/90 hover:shadow-sm transition-all duration-200"
               >
                 <item.icon

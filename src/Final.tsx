@@ -23,7 +23,7 @@ const Final = () => {
                 rel="noopener noreferrer"
                 className="hover:text-blue-600 transition-colors"
               >
-                &copy; 2024 Blink Labs Software
+                © {new Date().getFullYear()} Blink Labs Software
               </a>
               <a
                 href="https://www.apache.org/licenses/LICENSE-2.0.txt"

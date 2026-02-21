@@ -38,6 +38,7 @@ const NavLink = ({
       to={to}
       smooth={true}
       duration={500}
+      offset={-70}
       className={className}
       onClick={onClick}
     >
@@ -78,6 +79,7 @@ const MobileNavLink = ({
       to={to}
       smooth={true}
       duration={500}
+      offset={-70}
       className={className}
       onClick={onClick}
     >
