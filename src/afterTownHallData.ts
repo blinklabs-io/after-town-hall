@@ -67,10 +67,10 @@ const data = {
   ],
   breakoutRooms: [
     {
-      name: 'Fund 15 Q&A',
-      host: 'After Townhall team',
+      name: 'Your topic here',
+      host: 'Your name here',
       description:
-        "Do you have questions about Fund 15 or about how to share your proposal?",
+        "Let's talk about your project, just sign up below!",
     },
     {
       name: 'Sala de café',
@@ -90,7 +90,7 @@ const data = {
   },
   generalInfo: {
     date: 'February 2026',
-    upcomingEvent: 'Fund15 has been paused. We at the ATH have no further updates but will share when we do.',
+    upcomingEvent: 'Fund15 has been cancelled and Catalyst effectively put on hold. We will share more when we have it.',
   },
 };
 
